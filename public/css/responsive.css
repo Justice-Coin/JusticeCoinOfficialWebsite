@@ -1,0 +1,2278 @@
+/*    Device = Laptops, Desktops
+---------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+	.navbar-brand {
+		position: absolute;
+		top: 10px;
+		left: 15px;
+	}
+	.header .navbar .language {
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+	.header .navbar .language .dropdown-menu {
+		top: 100%;
+		right: 0;
+		margin-left: -80px;
+	}
+	.navbar-nav {
+		width: 100%;
+		justify-content: center;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+		padding: 0px 0px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 40px 0px 0;
+	}
+	#header-06 .img-wrapper .intro-img .bounce_wrapper img {
+		width: 100%;
+	}
+	#about_cryptonic_06 .about-img {
+		margin-top: 0;
+		margin-right: -42px;
+		margin-left: 0;
+	}
+	#about_cryptonic_06 .about-img img {
+		width: 100%;
+	}
+	#best_feature_06 .feature_items .single-wrapper .single-items {
+		margin-bottom: 30px;
+	}
+	#token_sale_06 .pricing_items .single-wrapper .pricing_single {
+		margin-bottom: 30px;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper {
+		padding: 15px;
+		margin: 0;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper ul {
+		margin-right: 15px;
+	}
+	#token_distribution_06 .distribution_single_items {
+		display: inline;
+	}
+	#token_distribution_06 .distribution_single_item {
+		margin: 0px auto;
+		margin-bottom: 250px;
+	}
+	#token_distribution_06 .distribution_single_item:last-child {
+		margin-bottom: 00px;
+	}
+	#header-06 .img-wrapper .intro-img .bounce_wrapper img {
+		margin-left: 0;
+	}
+	#roadmap_06 .location_04 {
+		width: 100%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .roadmap_position {
+		height: auto;
+		width: 100%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location {
+		position: static;
+		flex-wrap: wrap;
+		flex: wrap;
+		float: left;
+	}
+	#header-01 .img-wrapper .intro-img {
+		margin-top: 25%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#header-01 .img-wrapper .intro-img img {
+		width: 100%;
+	}
+	#about_cryptonic_01 .about-img {
+		margin-left: 0;
+	}
+	#about_cryptonic_01 .about-img img {
+		width: 100%;
+	}
+	#tokenization_benefits_01 .about-img {
+		margin-left: 0;
+	}
+	#tokenization_benefits_01 .about-img img {
+		width: 100%;
+	}
+	#roadmap_01 .location_04 {
+		width: 100%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .roadmap_position {
+		height: auto;
+		width: 100%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+	}
+	#roadmap_061.location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location {
+		position: static;
+		flex-wrap: wrap;
+		flex: wrap;
+		float: left;
+		width: 50%;
+		padding: 0 80px;
+	}
+	#companis_supported_01 img {
+		width: 120px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 15px 25px;
+		height: auto;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		line-height: 30px;
+	}
+	#footer-01 .copyright .social-links {
+		justify-content: end;
+		text-align: right;
+	}
+	.header .img-wrapper .intro-img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	#benefits #about_cryptonic .about-img .img-wrapper::before {
+		display: none;
+	}
+	#benefits #about_cryptonic .about-img .img-wrapper img {
+		width: 100%;
+	}
+	#token_distribution .token_distribution_wrapper img {
+		width: 100%;
+	}
+	#token_funds .token_distribution_wrapper img {
+		width: 100%;
+	}
+	.header .is-sticky .cripto_nav {
+		padding: 25px !important;
+	}
+	#header-02 .is-sticky .cripto_nav {
+		padding: 0px !important;
+	}
+	#header-02 .img-wrapper .intro-img img {
+		margin-left: 0;
+		width: 100%;
+	}
+	#header-02 .intro-text {
+		padding: 0;
+	}
+	#header-02 .earning-02 {
+		margin-top: 7%;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		height: auto;
+		padding: 15px 25px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		line-height: 26px;
+	}
+	#header-04 .is-sticky nav.navbar {
+		padding: 0 !important;
+	}
+	#footer-04 .address-single .address_wrapper span {
+		font-size: 16px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		height: auto;
+		padding: 15px 22px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		line-height: 26px !important;
+	}
+	#header-05 .is-sticky .cripto_nav {
+		padding: 0 !important;
+	}
+
+}
+/*		Tablet Layout: 768px.
+---------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header {
+		height: 100%;
+	}
+	.shape1 img, .shape2 img, .shape3 img, .shape4 img, .shape5 img{
+		width: 100%
+	}
+	.navbar-brand {
+		position: absolute;
+		top: 10px;
+		left: 15px;
+	}
+	.header .navbar .language {
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+	.header .navbar .language .dropdown-menu {
+		top: 100%;
+		right: 0;
+		margin-left: -80px;
+	}
+	.navbar-nav {
+		width: 100%;
+		justify-content: center;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+		padding: 0px 0px;
+	}
+	.header .navbar .navbar-nav .nav-item {
+		padding: 40px 0px 0;
+	}
+	/* index-03 */
+	.token_distribution_wrapper > img {
+		width: 100%;
+	}
+	.digit {
+		height: 70px;
+		line-height: 70px;
+		width: 70px;
+	}
+	.sub-title {
+		min-width: 440px;
+	}
+	/* index 02*/
+	#header-02 .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#header-02 .intro-text {
+		padding: 0px 10%;
+		margin-top: 95px;
+	}
+	#header-02 .intro-text .btn_video_wrapper {
+		display: flex;
+	}
+	#header-02 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	#header-02 .img-wrapper .intro-img {
+		margin-top: 0px;
+		margin-left: 0;
+		text-align: center;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		padding: 50px 15px;
+	}
+	#about_cryptonic_02 .about-img {
+		margin-left: 0%;
+	}
+	#about_cryptonic_02 .about-img img {
+		width: 100%;
+	}
+	#about_cryptonic_02 .about-img > img,
+	#pricing_charts_02 .chats-wrapper img {
+		width: 100%;
+	}
+	#multiple-income-02 .about-img {
+		margin-left: 0;
+	}
+	#multiple-income-02 .about-img img {
+		width: 100%;
+	}
+	#team_membar_02 .owl-item.active {
+		margin-top: 0;
+	}
+	#ico_news_02 .single-blog-wrapper {
+		margin-bottom: 60px;
+	}
+	#ico_news_02 .single-blog-wrapper:last-child {
+		margin-bottom: 0px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 26px;
+		padding-right: 0;
+	}
+	#faq-area .faq-wrapper a::after {
+		right: -40px;
+		top: 0;
+	}
+	#faq-area-02 .sub-title {
+		min-width: 296px;
+	}
+	#footer-02 {
+		background: #7158e7 url("../images/bg-img/footer-02.jpg") no-repeat scroll 0 0;
+	}
+	#earning-04 .earning-wrapper .single-earnings {
+		margin: 0;
+		padding: 60px 15px;
+	}
+	#about_cryptonic_04 .about_2_item {
+		padding-top: 100px;
+	}
+	#about_cryptonic_04 {
+		padding: 100px 0;
+	}
+	#benefit-04 .single-items .benefits-icon img {
+		width: 70px;
+	}
+	#real_investor_04 .best_price .single_items {
+		margin: 0 50px;
+	}
+	#earning-05 .earning-wrapper .single-earnings {
+		width: 30%;
+	}
+	#about_cryptonic_05 .about_2_item {
+		padding-top: 100px;
+	}
+	#roadmap_05 .location_04 .location_wrapper .roadmap_position {
+		height: 0;
+	}
+	/* index 05*/
+	#about_cryptonic_05 .about-img > img {
+		width: 100%;
+	}
+	#about_cryptonic_05 .about_2_item img,
+	#multiple-income-05 .about-img > img {
+		width: 100%;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 26px;
+		padding-right: 0;
+	}
+	#faq-area-05 .sub-title {
+		min-width: 296px;
+	}
+	#footer-02 p {
+		margin: 0 30px 0 0;
+	}
+	/* index 01*/
+	#header-01 .intro-text {
+		padding: 0 0 0 18px;
+	}
+	#header-01 .img-wrapper .intro-img img {
+		height: auto;
+		margin-left: 12%;
+		margin-top: 38%;
+		width: 100%;
+	}
+	#header-01 .img-wrapper .intro-img .shape-1 .box img{
+		display: none;
+	}
+	#about_cryptonic_01 .img-wrapper img {
+		margin-top: 25%;
+		width: 108%;
+	}
+	#tokenization_benefits_01 .img-wrapper img {
+		margin-top: 79px;
+		width: 100%;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 26px;
+		padding-right: 0;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form {
+		width: 700px;
+	}
+	#header-06 .intro-text {
+		text-align: center;
+		margin: 120px 0 0px;
+	}
+	#header-06 .intro-text h1 {
+		padding: 0 50px;
+	}
+	#header-06 .intro-text p {
+		padding: 0 50px;
+	}
+	#header-06 .intro-text .btn_video_wrapper {
+		justify-content: center;
+	}
+	#header-06 .img-wrapper .intro-img {
+		margin-left: 0%;
+		text-align: center;
+	}
+	#header-06 .img-wrapper .intro-img .bounce_wrapper img {
+		margin-left: 0;
+	}
+	#header-06 .img-wrapper .intro-img .bounce_wrapper .shape-1 {
+		right: 29%;
+	}
+	#header-06 .shape4 img {
+		top: 0;
+		right: 0;
+		z-index: -2;
+		transform: translate(50px, 90%);
+	}
+	#header-06 .shape6 {
+		bottom: 0%;
+	}
+	#welcome_cryptonic_06 {
+		padding: 100px 0 150px;
+	}
+	#about_cryptonic_06 .about-img {
+		margin-top: 0;
+		margin-right: -42px;
+		margin-left: 0;
+	}
+	#about_cryptonic_06 .about-img img {
+		width: 117%;
+	}
+	#best_feature_06 .feature_items .single-wrapper .single-items {
+		margin-bottom: 30px;
+	}
+	#token_sale_06 .pricing_items .single-wrapper .pricing_single {
+		margin-bottom: 30px;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper {
+		padding: 15px;
+		margin: 0;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper ul {
+		margin-right: 15px;
+	}
+	#token_distribution_06 .distribution_single_items {
+		display: inline;
+	}
+	#token_distribution_06 .distribution_single_item {
+		margin: 0px auto;
+		margin-bottom: 250px;
+	}
+	#token_distribution_06 .distribution_single_item:last-child {
+		margin-bottom: 00px;
+	}
+	#roadmap_06 .location_04 {
+		width: 100%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .roadmap_position {
+		height: auto;
+		width: 100%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location {
+		position: static;
+		flex-wrap: wrap;
+		flex: wrap;
+		float: left;
+	}
+	#companis_supported_06 .companis_supported_logos ul {
+		padding: 0 15px 30px;
+	}
+	#companis_supported_06 .companis_supported_logos ul li img {
+		width: 120px;
+	}
+	#team_membar_06 .owl-item.active {
+		margin-top: 0;
+	}
+	.faq-img {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.subscribe-wrapper #subscribe .subscribe-form form {
+		width: 650px;
+	}
+	#header-01 .img-wrapper .intro-img {
+		margin-top: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#header-01 .img-wrapper .intro-img img {
+		height: auto;
+		margin-left: 0;
+		margin-top: 0%;
+		width: 100%;
+	}
+	#header-01 .intro-text {
+		margin-top: 120px;
+	}
+	#header-01 .row.intro-wrapper {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#header-01 .img-wrapper {
+		flex: 2;
+	}
+	#header-01 .intro-text-wrapper {
+		flex: 1;
+	}
+	#about_cryptonic_01 .img-wrapper img {
+		margin-top: 50%;
+		width: 120%;
+	}
+	#benefits-01 .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 30px;
+	}
+	#token_sale_01 .pricing_items .single-wrapper .pricing_single {
+		margin: 0 10px 30px;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper {
+		padding: 15px;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper ul {
+		margin-right: 15px;
+	}
+	#roadmap_01 .location_04 {
+		width: 100%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .roadmap_position {
+		height: auto;
+		width: 100%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+		width: 50%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+		width: 50%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+		width: 50%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location {
+		position: static;
+		flex-wrap: wrap;
+		flex: wrap;
+		float: left;
+	}
+	#companis_supported_01 .companis_supported_logos ul {
+		padding: 0 15px 30px;
+	}
+	#companis_supported_01 .companis_supported_logos ul li img {
+		width: 120px;
+	}
+	#team_membar_01 .owl-item.active {
+		margin-top: 0;
+	}
+	#footer-01 .copyright .social-links {
+		justify-content: end;
+		text-align: right;
+	}
+	#header .is-sticky .cripto_nav {
+		padding: 25px !important;
+		transition: all 0.3s ease-in-out;
+	}
+	.header .img-wrapper .intro-img {
+		margin-top: 0;
+		margin-left: 0;
+		margin-bottom: 100px;
+	}
+	.header .img-wrapper .intro-img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	.header .intro-text {
+		margin-top: 120px;
+		padding-right: 0px;
+	}
+	#benefits .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 15px;
+	}
+	#benefits #about_cryptonic .about-img .img-wrapper::before {
+		display: none;
+	}
+	#benefits #about_cryptonic .about-img .img-wrapper img {
+		width: 85%;
+		margin-top: 30%;
+	}
+	.position {
+		width: 70px;
+	}
+	.payment_mathod .payment-options {
+		flex-wrap: wrap;
+	}
+	.payment_mathod .payment-options .payment-single {
+		margin: 0 15px 30px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-left .doc-wraper::before {
+		left: 0px;
+		top: 0px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right .doc-wraper::before {
+		left: 0px;
+		top: 0px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-desc .doc-wraper {
+		padding: 15px;
+		margin: 15px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right .doc-wraper {
+		padding: 15px;
+	}
+	.roadmap .roadmap-area::before {
+		background: transparent;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-status {
+		padding: 30px 0 50px;
+		text-align: center;
+		min-height: auto;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-marker {
+		display: none;
+	}
+	.pn_reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-left {
+		padding: 0;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right {
+		padding: 0;
+	}
+	#team_membar .single-row .team-single-item {
+		margin-bottom: 30px;
+	}
+	#team_membar .single-row {
+		margin-bottom: 0;
+	}
+	.logos .companis-logo-wapper .companis-logos {
+		margin-bottom: 50px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.logos .companis-logo-wapper .companis-logos li {
+		margin: 15px;
+	}
+	.logos .companis-logo-wapper .companis-logos li img {
+		height: 20px;
+		width: auto;
+	}
+	.footer .footer-single-col {
+		margin-bottom: 50px;
+	}
+	.footer .footer-btm-wrapper .footer-single-col .subtitle_1 {
+		margin-bottom: 25px;
+	}
+	#token_distribution .token_distribution_wrapper img {
+		width: 100%;
+	}
+	#header-05 .intro-text .intro-img-wrapper img {
+		width: 100%;
+	}
+	#earning-05 .earning-wrapper {
+		padding: 15px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter span {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter span:last-child {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter {
+		width: 150px;
+		height: 150px;
+		margin-right: 25px;
+		padding: 40px 0px;
+	}
+	#benefits-05 .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 30px;
+	}
+	#best_feature_05 .feature_items .single-wrapper .single-items {
+		margin-bottom: 30px;
+	}
+	#best_feature_05 .payment-options {
+		justify-content: center;
+	}
+	#best_feature_05 .payment-options .payment-single-05 {
+		margin-bottom: 30px;
+	}
+	#roadmap_05 .header-shape {
+		display: none;
+	}
+	#roadmap_05 .location_04 .location_wrapper .location {
+		position: static;
+		width: 50%;
+		float: left;
+		padding: 0 50px;
+	}
+	#roadmap_05 .location_04 {
+		text-align: center;
+		width: 100%;
+	}
+	#team_membar_02 .single-wrapper .team-single-item figure figcaption .member-name {
+		margin-left: 15px;
+	}
+	#team_membar_02 .single-wrapper {
+		margin: 0 15px;
+	}
+	#companis_logos_05 .sub-title h2 {
+		font-size: 36px;
+	}
+	#blog-post .post-area .blog_wrapper .widget form input[type="search"] {
+		width: 100%;
+	}
+	#blog-post .post-area .blog_wrapper {
+		padding: 20px 15px;
+	}
+	#blog-post .post-area {
+		margin-bottom: 0;
+	}
+	.blog_post .header-shape {
+		position: absolute;
+		z-index: -10;
+		display: none;
+	}
+}
+/*		Mobile Layout: 320px.
+---------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+	.header {
+		height: 100%;
+		overflow: hidden;
+	}
+	#header-06 {
+	    overflow: hidden;
+	}
+	#footer-06 {
+	    overflow: hidden;
+	}
+	#token_sale_06 {
+	    overflow: hidden;
+	}
+	#companis_supported_01 {
+	    overflow: hidden;
+	}
+	#token_sale_01 {
+	    overflow: hidden;
+	}
+	#tokenization_benefits_01 {
+	    overflow: hidden;
+	}
+	.header-01 {
+	    min-height: 760px;
+	}
+	#header-02 {
+	    min-height: 1650px;
+	}
+	#about_cryptonic_02 {
+	    padding: 150px 0 0;
+	}
+	#about_cryptonic_02 {
+	    overflow: hidden;
+	}
+	#benefit-04 {
+	    overflow: hidden;
+	}
+
+	#about_cryptonic_05:before {
+	    display: none;
+	}
+	#ico_start_05:before {
+	    display: none;
+	}
+	.body_05 .language {
+	    position: absolute;
+	    top: 10px;
+	    left: 62%;
+	    transform: translateX(-50%);
+	    width: 100%;
+	    justify-content: center;
+	}
+	#about_cryptonic_04 {
+	    padding: 0px 0 100px;
+	}
+	#header-06 .bubble3 {
+	    right: 2%;
+	}
+	.shape1 img, .shape2 img, .shape3 img, .shape4 img, .shape5 img{
+		width: 100%
+	}
+	.header .navbar {
+		padding: 60px 0 15px !important;
+		z-index: 99;
+		background: #020c59 !important;
+	}
+	.header .navbar .navbar-nav .nav-item .nav-link {
+		padding: 10px 15px !important;
+		color: #ffffff !important;
+		font-size: 15px;
+		display: inline-block;
+	}
+	.header .navbar .language {
+		margin-left: 0px;
+	}
+	.language {
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		justify-content: center;
+	}
+	.header .navbar .language .dropdown-menu {
+		top: 100%;
+		right: 0;
+		margin-left: -80px;
+	}
+	.header .navbar .language .token {
+		padding: 0px 15px !important;
+		line-height: 40px !important;
+	}
+	.navbar-brand {
+		width: 78%;
+		text-align: right;
+	}
+	/* index-03 */
+	.navbar-light .navbar-toggler {
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		margin-left: 3%;
+		outline: none;
+	}
+	.header .intro-text {
+		margin-top: 100px;
+		padding-right: 0px;
+		text-align: center;
+	}
+	.header .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.header .intro-text p {
+		font-size: 14px;
+		padding-right: 0;
+		text-align: center;
+	}
+	.header .intro-text .intro_btn_3 {
+		margin-right: 15px;
+		padding: 0 30px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.intro-text .btn-default-style {
+		margin-left: 0%;
+	}
+	.header .img-wrapper .intro-img img {
+		margin-left: 17%;
+		width: 82%;
+		display: none;
+	}
+	#benefits #about_cryptonic .about_cryptonic-content h6 {
+		margin-left: 0;
+	}
+	#benefits #about_cryptonic .about_cryptonic-content h6::before {
+		display: none;
+	}
+	#countdown-area {
+		background: #0b1e68;
+		padding: 120px 0;
+		text-align: center;
+	}
+	.sub-title {
+		width: 100%;
+	}
+	.sub-title h2 {
+		font-size: 30px !important;
+		line-height: 36px !important;
+	}
+	#benefits .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 20px;
+	}
+	#benefits #about_cryptonic .about-img .img-wrapper::before {
+		display: none;
+	}
+	#benefits #about_cryptonic .about-img {
+		position: static;
+		right: 0;
+	}
+	#benefits #about_cryptonic .about-img img {
+		margin-bottom: 100px;
+		margin-left: 10%;
+		margin-top: -130px;
+		width: 80%;
+	}
+	#benefits #about_cryptonic .about_cryptonic-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#benefits #about_cryptonic .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.digit {
+		font-size: 16px;
+		height: 30px;
+		line-height: 31px;
+		width: 30px;
+	}
+	#countdown-area .countdown-wrapper .countdownHolder .countDays::before,
+	#countdown-area .countdown-wrapper .countdownHolder .countHours::before,
+	#countdown-area .countdown-wrapper .countdownHolder .countMinutes::before,
+	#countdown-area .countdown-wrapper .countdownHolder .countSeconds::before {
+		font-size: 12px;
+	}
+	.position {
+		height: 26px;
+		margin-right: -7px;
+		width: 28px;
+	}
+	.digit {
+		font-size: 16px;
+		height: 25px;
+		line-height: 25px;
+		padding-right: 4px;
+		width: 25px;
+	}
+	#progerss-wrapper .progress .heard_cap span,
+	#progerss-wrapper .progress .minimum_goal span,
+	#progerss-wrapper .progress .heard_cap h3,
+	#progerss-wrapper .progress .heard_cap h3,
+	#progerss-wrapper .progress .minimum_goal h3 {
+		font-size: 16px;
+	}
+	.payment_mathod .payment-options {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.payment_mathod .payment-options .payment-single {
+		margin: 15px 15px;
+		width: 175px;
+	}
+	#progerss-wrapper .progress {
+		height: 38px;
+	}
+	#progerss-wrapper .progress .progress-bar span {
+		font-size: 18px;
+	}
+	.token_distribution_wrapper > img {
+		width: 100%;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-left .doc-wraper::before {
+		left: 0px;
+		top: 0px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right .doc-wraper::before {
+		left: 0px;
+		top: 0px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-desc .doc-wraper {
+		padding: 15px;
+		margin: 15px;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right .doc-wraper {
+		padding: 15px;
+	}
+	.roadmap .roadmap-area::before {
+		background: transparent;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-status {
+		padding: 30px 0 50px;
+		text-align: center;
+		min-height: auto;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-marker {
+		display: none;
+	}
+	.pn_reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-left {
+		padding: 0;
+	}
+	.roadmap .roadmap-area .roadmap-tree .roadmap-cloumn .roadmap-dese-right {
+		padding: 0;
+	}
+	#progerss-wrapper .progress .heard_cap h3 {
+		margin-right: 25px;
+	}
+	#team_membar_06 {
+		padding: 100px 0 0px;
+	}
+	#team_membar .single-row .team-single-item {
+		margin-bottom: 20px;
+	}
+	#team_membar_06 .owl-item.active {
+		margin-top: 0;
+	}
+	.logos .companis-logo-wapper .companis-logos {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+	.logos .companis-logo-wapper .companis-logos li {
+		width: 50%;
+		margin-bottom: 30px;
+		vertical-align: middle;
+	}
+	.logos .companis-logo-wapper .companis-logos li img {
+		width: 120px;
+		height: auto;
+		margin: 0px auto;
+	}
+	.logos .companis-logo-wapper .companis-logos:last-child li {
+		margin: 0;
+	}
+	.logos .companis-logo-wapper .companis-logos:last-child {
+		justify-content: left;
+	}
+	#faq-area .faq-wrapper #accordion .card .card-header a {
+		font-size: 15px;
+	}
+	#faq-area .faq-wrapper a::after {
+		right: -15px;
+		top: 0;
+		font-size: 10px;
+	}
+	#faq-area .faq-wrapper {
+		padding: 40px 15px 50px;
+	}
+	#faq-area .faq-wrapper #accordion .card .card-header {
+		background: transparent;
+		border: none;
+		padding: 0 15px 0 0;
+	}
+	#subscribe-wrapper #subscribe .subscribe-form form input {
+		font-size: 14px;
+		padding: 0 109px 0 40px;
+	}
+	#subscribe-wrapper #subscribe .subscribe-form form {
+		width: 280px;
+	}
+	#subscribe-wrapper #subscribe .subscribe-form form button {
+		width: 95px;
+	}
+	#subscribe-wrapper #subscribe .subscribe-social .social-items li {
+		margin-bottom: 13px;
+		margin-right: 9px;
+	}
+	#subscribe-wrapper #subscribe .subscribe-social .social-items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.footer .footer-btm-wrapper .footer-single-col p {
+		margin: 0;
+	}
+	/* index 02*/
+	#header-02::before {
+		background: #562ad8 url("../images/bg-img/banner-02.png") no-repeat scroll 100% 100% / cover;
+	}
+	#header-02 .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#header-02 .intro-text {
+		padding: 0px;
+		margin-top: 95px;
+	}
+	#header-02 .intro-text .btn_video_wrapper a {
+		margin-right: 0;
+	}
+	#header-02 .intro-text .btn_video_wrapper {
+		display: inline;
+	}
+	#header-02 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	#header-02 .img-wrapper .intro-img img {
+		width: 100%;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		display: inherit;
+	}
+	#header-02 .earning-02 .earning-wrapper .single-earnings {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	#header-02 {
+		height: auto;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		margin-top: 80px;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		padding: 25px;
+	}
+	#header-02 .earning-02 .earning-wrapper .single-earnings .earning-title h2 {
+		font-size: 20px;
+	}
+	#about_cryptonic_02 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	#multiple-income-02 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	#footer-02 .footer_items .footer_single_list_3 {
+		width: 50%;
+	}
+	#header-02 .intro-text .btn_video_wrapper a {
+		margin-right: 0;
+	}
+	#header-02 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn span a {
+		margin: 0px auto;
+		margin-top: 40px;
+	}
+	#team_membar_02 .owl-item.active {
+		margin-top: 0;
+	}
+	#team_membar_02 .single-wrapper {
+		margin: 0 15px;
+	}
+	#team_membar_02 .single-wrapper .team-single-item figure figcaption .member-name {
+		margin-left: 20px;
+		line-height: 15px;
+	}
+	#ico_news_02 .single-blog-wrapper {
+		padding: 0 25px;
+		margin-bottom: 70px;
+	}
+	#ico_news_02 .single-blog-wrapper .singel-blog .post-date {
+		padding: 15px 0;
+	}
+	#ico_news_02 .single-blog-wrapper::before {
+		display: none;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		height: auto;
+	}
+	.padding-none {
+		padding: 0px 20px;
+	}
+	#about_cryptonic_02 .about-img > img,
+	#pricing_charts_02 .chats-wrapper img,
+	#multiple-income-02 .about-img > img {
+		width: 100%;
+	}
+	#pricing_charts_02::before {
+		display: none;
+	}
+	#ico_news_02 .title-wrapepr::before {
+		background: none;
+	}
+	#ico_news_02 .title-wrapepr::after {
+		background: none;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-02 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 10px;
+		padding-right: 0;
+	}
+	#footer-02 {
+		background: #7158e7 url("../images/bg-img/footer-02.jpg") no-repeat scroll 0 0;
+	}
+	#footer-02 .footer_items .footer_single_list_1,
+	#footer-02 .footer_items .footer_single_list_2,
+	#footer-02 .footer_items .footer_single_list_2,
+	#footer-02 .footer_items .footer_single_list_4 {
+		width: 100%;
+	}
+	#footer-02 .footer_items {
+		display: inline;
+	}
+	#footer-02 p {
+		margin: 0px;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		margin-bottom: -236px;
+	}
+	.about_2_item .about-img > img {
+		margin-left: 22px;
+		margin-top: -50px;
+	}
+	.footer .footer-btm-wrapper .footer-single-col .subtitle_1 {
+		margin-bottom: 20px;
+		margin-top: 50px;
+	}
+	/* index-05 */
+	#header-05 .intro-text p {
+		max-width: 100%;
+	}
+	#header-05 .navbar .language .dropdown a {
+		color: #fff;
+	}
+	#header-05 .intro-text a {
+		margin-right: 0;
+	}
+	.navbar-light .navbar-brand {
+		position: relative;
+	}
+	.navbar-light .navbar-brand img {
+		visibility: hidden;
+	}
+	.navbar-light .navbar-brand::before {
+		background: url('../images/logo.png');
+		position: absolute;
+		top: 0;
+		right: 0;
+		content: "";
+		height: 30px;
+		width: 120px;
+	}
+	.header_effect {
+		display: none;
+	}
+	#header-05 .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#header-05 .intro-text {
+		padding: 0px;
+		margin-top: 95px;
+	}
+	.intro-img-wrapper > img {
+		width: 100%;
+	}
+	#about_cryptonic_05 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	#earning-05 .earning-wrapper {
+		display: inline;
+		background: transparent none repeat scroll 0 0;
+		box-shadow: none;
+	}
+	#earning-05 .earning-wrapper .single-earnings {
+		margin-top: 35px;
+		padding: 0 20px;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#earning-05 .earning-wrapper .single-earnings .earning-title {
+		margin-left: 0;
+	}
+	#header-05 .intro-text .btn_video_wrapper {
+		display: inline;
+	}
+	#header-05 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn {
+		margin-left: 49px;
+		margin-top: 30px;
+	}
+	#header-05 .intro-text a {
+		margin-top: 14px;
+	}
+	#about_cryptonic_05 .about-img > img {
+		margin-bottom: 14%;
+		margin-left: 4%;
+		width: 100%;
+	}
+	#about_cryptonic_05 .about_2_item .about-img > img {
+		margin-bottom: 14%;
+		margin-left: 4%;
+		width: 100%;
+	}
+	#about_cryptonic_05 .about_2_item img,
+	#multiple-income-05 .about-img > img {
+		margin-top: 40px;
+		width: 100%;
+	}
+	.countdown_time {
+		margin-top: 30px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter {
+		margin-bottom: 30px;
+		margin-left: 0;
+	}
+	#ico_start_05 .ico-title h3 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter span {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter {
+		width: 120px;
+		height: 120px;
+		margin: 2px;
+		padding: 25px;
+	}
+	#ico_start_05 .clock-countdown {
+		margin-bottom: 50px;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter span:last-child {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	#ico_start_05 .coundown-timer {
+		flex-wrap: wrap;
+	}
+	#multiple-income-05 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	#best_feature_05 .feature_items .single-wrapper .single-items {
+		margin-bottom: 20px;
+		margin-left: 11%;
+	}
+	#best_feature_05 .payment-options {
+		display: inherit;
+	}
+	#benefits-05 .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 30px;
+	}
+	#best_feature_05 .feature_items .single-wrapper {
+		padding-right: 15px;
+	}
+	#best_feature_05 .feature_items .single-wrapper .single-items {
+		margin-left: 0;
+	}
+	#best_feature_05 .payment-options {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#best_feature_05 .payment-options .payment-single-05 {
+		height: 115px;
+		width: 115px;
+		margin-bottom: 30px;
+	}
+	#best_feature_05 .payment-options .payment-single-05 .payment-wrapper .payment-icon i {
+		line-height: 25px;
+	}
+	#best_feature_05 .payment-options .payment-single-05 .payment-wrapper .payment-icon i::before {
+		font-size: 60px;
+	}
+	#roadmap_05 .location_04 .location_wrapper .location {
+		position: static;
+		width: 100%;
+	}
+	#roadmap_05 .location_04 {
+		text-align: center;
+		width: 100%;
+	}
+	#roadmap_05 .shape1.header-shape > img {
+		display: none;
+	}
+	#companis_logos_05 ul {
+		flex-wrap: wrap;
+		margin-bottom: 0;
+	}
+	#companis_logos_05 ul li {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	#benefit-04 .single-items .benefits-icon img {
+		width: 80px;
+		height: auto;
+	}
+	#services-04 .location_04 .location_wrapper img {
+		display: none;
+	}
+	#services-04 .location_04 .location_wrapper img {
+		position: relative;
+		width: 100%;
+	}
+	#services-04 .location_04 .location_wrapper .location {
+		position: static;
+		width: 100%;
+	}
+	#services-04 .location_04 {
+		padding: 0;
+	}
+	#services-04 .location_04 .location_wrapper span {
+		display: none;
+	}
+	#team_membar_04 .single-row .membar_item_bottom {
+		margin-top: 0;
+	}
+	#team_membar_04 .single-wrapper.padding-none {
+		margin-bottom: 30px;
+		padding: 0;
+	}
+	#companis_logos_04 {
+		padding: 17px 0;
+	}
+	#companis_logos_04 ul {
+		justify-content: left;
+		margin-bottom: 0px;
+		flex-wrap: wrap;
+	}
+	#companis_logos_04 ul li {
+		width: 40%;
+		margin-bottom: 20px;
+	}
+	#companis_logos_04 ul:last-child {
+		justify-content: left;
+		margin-bottom: 0;
+	}
+	#footer-04 .social-items li {
+		margin-right: 15px;
+	}
+	#footer-04 .address-single {
+		margin-bottom: 30px;
+	}
+	#footer-04 .address-single i {
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+	}
+	#footer-04 .social-items {
+		display: flex;
+		margin-bottom: 40px;
+	}
+	#footer-04 .address-single .address_wrapper {
+		margin-left: 25px;
+	}
+	#footer-04 .address-single .address_wrapper span {
+		font-size: 16px;
+	}
+	#footer-04 .footer-btm-wrapper {
+		padding-top: 0;
+		border-top: none;
+		margin-top: 50px;
+		padding-bottom: 100px;
+	}
+	#footer-04 .footer-btm-wrapper p {
+		margin: 0;
+	}
+	#footer-04 .copyright p {
+		margin: 0;
+		line-height: 22px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-05 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 26px;
+		padding-right: 0;
+	}
+	#about_cryptonic_05 .about_2_item {
+		padding-top: 150px;
+	}
+	#roadmap_05 .location_04 .location_wrapper .roadmap_position {
+		height: 0;
+	}
+	#footer-05 {
+		padding-top: 50px;
+	}
+	#footer-05 .footer_items .footer_single_list_1,
+	#footer-05 .footer_items .footer_single_list_2,
+	#footer-05 .footer_items .footer_single_list_2,
+	#footer-05 .footer_items .footer_single_list_4 {
+		width: 100%;
+	}
+	#footer-05 .footer_items .footer_single_list_3 {
+		width: 100%;
+	}
+	#footer-05 .footer_items {
+		display: inline;
+	}
+	#footer-05 p {
+		margin: 0px;
+	}
+	#footer-02 .copyright p,
+	#footer-05 .copyright p,
+	#footer .copyright p,
+	#footer-01 .copyright p,
+	#footer-06 .copyright p {
+		line-height: 23px;
+	}
+	.shape2.header-shape > img {
+		display: none;
+	}
+	/* index 01*/
+	#header-01 {
+		height: 100%;
+		min-height: 0;
+	}
+	#header-01 .img-wrapper .intro-img img {
+		margin-left: 0;
+		margin-top: 20%;
+		width: 100%;
+	}
+	#header-01 .img-wrapper .intro-img .shape-1 .box img{
+		display: none;
+	}
+	#header-01 .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#header-01 .intro-text {
+		padding: 0px;
+		margin-top: 12px;
+		text-align: center;
+	}
+	#header-01 .intro-text .btn-default-style {
+		margin-left: 0;
+	}
+	#about_cryptonic_01 .img-wrapper img {
+		margin-top: 25%;
+		width: 100%;
+	}
+	#benefits-01 .benefits-single-item .benefits-single-wrapper {
+		margin-bottom: 20px;
+	}
+	#tokenization_benefits_01 .img-wrapper img {
+		margin-left: 16px;
+		margin-top: 0px;
+		width: 100%;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-01 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 26px;
+		padding-right: 0;
+	}
+	#roadmap_01 .location_04 .location_wrapper .roadmap_position {
+		height: 100%;
+		width: 100%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location {
+		position: static;
+		width: 95%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+	}
+	#roadmap_01 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+	}
+	#token_sale_01 .pricing_items .single-wrapper .pricing_single {
+		margin-left: 22px;
+		margin-bottom: 20px;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper {
+		display: inline;
+		border: medium none;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper ul {
+		width: 90%;
+		margin-left: 52px;
+		margin-bottom: 30px;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper ul li {
+		margin-bottom: 30px;
+		min-height: auto;
+	}
+	#token_sale_01 .pricing_bottom .pricing_list_wrapper ul li:last-child {
+		margin-bottom: 0px;
+	}
+	#token_sale_01 .pricing_items .single-wrapper .pricing_single {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	#companis_supported_01 {
+		padding: 0 0 0px;
+	}
+	#companis_supported_01 .companis_supported_logos {
+		max-height: 100% !important;
+		background: none;
+	}
+	#companis_supported_01 .companis_supported_logos ul {
+		display: inherit;
+		flex-wrap: wrap;
+		padding: 15px 0px;
+	}
+	#companis_supported_01 .companis_supported_logos ul li {
+		width: 100% !important;
+		margin-bottom: 30px;
+		justify-content: space-between;
+		margin: 0px auto;
+	}
+	.companis_supported_01 .companis_supported_logos ul li img {
+		margin-bottom: 30px;
+	}
+	#team_membar_01 .single-wrapper {
+		margin: 0 15px;
+	}
+	#team_membar_01 .owl-item.active {
+		margin-top: 0;
+	}
+	#footer-01 .footer_items .footer_single_list_1 {
+		width: 100%;
+	}
+	#footer-01 .footer_items .footer_single_list_2 {
+		width: 50%;
+	}
+	#footer-01 .footer_items .footer_single_list_3 {
+		width: 50%;
+	}
+	#footer-01 .footer_items .footer_single_list_4 {
+		width: 100%;
+	}
+	#footer-01 .footer_items {
+		flex-wrap: wrap;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form {
+		width: 294px;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+		font-size: 15px;
+		width: 91px;
+		cursor: pointer;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group input {
+		padding: 0 151px 0 10px;
+	}
+	#footer-01 p {
+		margin: 0px;
+	}
+	#footer-01 .copyright p {
+		position: static;
+	}
+	/* index 04*/
+	#header-04 {
+		min-height: 100%;
+	}
+	#header-04 .intro-text h1 {
+		font-size: 32px;
+		line-height: 47px;
+	}
+	#header-04 .intro-text p {
+		max-width: 100%;
+	}
+	#header-04 .intro-text {
+		padding: 0px;
+		margin-top: 100px;
+	    margin-bottom: 100px;
+	}
+	#header-04::before {
+		display: none;
+	}
+	#header-04 .intro-text .btn-default-style {
+		margin-left: 0;
+	}
+	#earning-04 .earning-wrapper {
+		display: inline;
+	}
+	#earning-04 .earning-wrapper .single-earnings {
+		width: 100%;
+		margin: 0;
+	}
+	#about_cryptonic_04 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 40px;
+		margin-top: 50px;
+	}
+	#about_cryptonic_04 .about_cryptonic-content {
+		margin-top: 0px;
+	}
+	#about_cryptonic_04 .about_2_item {
+		padding-top: 150px;
+	}
+	#about_cryptonic_04 .about-img > img {
+		width: 100%;
+	}
+	#about_cryptonic_04 .about-img::before,
+	#about_cryptonic_04 .about_2_item .about-img::before {
+		background: transparent;
+	}
+	#about_cryptonic_04 .about-img > img {
+		margin-left: -7%;
+		margin-top: 40%;
+		width: 100%;
+	}
+	#about_cryptonic_04 .about_2_item .about-img > img {
+		margin-bottom: 0%;
+		margin-left: 0%;
+		margin-top: 0;
+		width: 100%;
+	}
+	#benefit-04 .single-items {
+		display: inline;
+	}
+	#benefit-04 .single-items .benefits-icon img {
+		display: block;
+		height: auto;
+		margin: 28px auto 23px;
+		width: 110px;
+	}
+	#benefit-04 .single-items .benefits-icon,
+	#benefit-04 .single-items .benefits-content {
+		text-align: center;
+		width: 100%;
+	}
+	#real_investor_04 .about-img > img {
+		width: 100%;
+	}
+	#real_investor_04 .about-img h3 {
+		margin-top: 30px;
+	}
+	#real_investor_04 .best_price {
+		display: inline;
+	}
+	#real_investor_04 .best_price .single_items {
+		margin: 0 15px 60px;
+	}
+	#real_investor_04 .about-img {
+		margin-bottom: 100px;
+	}
+	#you_earning_04 .you_earning_wrapper .calculate-form {
+		padding: 0;
+		display: inherit;
+		text-align: center;
+	}
+	#you_earning_04 .you_earning_wrapper .calculate-form input {
+		width: 70%;
+	}
+	#you_earning_04 .you_earning_wrapper .calculate-form button {
+		margin: 30px 0 15px;
+	}
+	#you_earning_04 .you_earning_wrapper .bitcoin_rate {
+		display: inline;
+		justify-content: center;
+		padding: 0;
+		text-align: center;
+		margin: 15px;
+	}
+	/* index-06 */
+	#header-06 .navbar .language .token {
+		line-height: 40px !important;
+	}
+	#header-06 .intro-text {
+		margin: 120px 0 100px;
+	}
+	#header-06 .intro-text h1 {
+		font-size: 30px;
+		line-height: 35px;
+		padding: 0;
+	}
+	#header-06 .intro-text p {
+		padding: 20px 0 0;
+	}
+	#header-06 .intro-text .btn_video_wrapper {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	#header-06 .intro-text .btn_video_wrapper a {
+		margin: 0;
+	}
+	#header-06 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn span a {
+		margin: 0px auto;
+	}
+	#header-06 .intro-text {
+		padding: 0px;
+		margin-top: 95px;
+	}
+	#header-06 .img-wrapper .intro-img .bounce_wrapper img {
+		margin-left: 0;
+		margin-top: 0%;
+		width: 100%;
+	}
+	#header-06 .img-wrapper .intro-img {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.shape-1 .bounce-1 {
+		display: none;
+	}
+	#header-06 .video_wrapper {
+		margin: 0px;
+		margin-top: 20px;
+	}
+	#header-06 .countdown_time {
+		margin: 90px 0 0;
+		padding: 0;
+	}
+	#header-06  .coundown-timer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#header-06 .countdown_time .clock-countdown .single-counter {
+		padding: 15px;
+	}
+	#header-06 .countdown_time .count-time_btn {
+		padding-bottom: 30px;
+	}
+	#header-06 .countdown_time .count-time_btn a {
+		font-size: 14px;
+	}
+	#header-06 .countdown_time .clock-countdown .single-counter .normal {
+		margin-left: 0px;
+	}
+	#welcome_cryptonic_06 {
+		padding: 100px 0 100px;
+	}
+	#welcome_cryptonic_06 .about_cryptonic-content {
+		padding: 0px;
+	}
+	#about_cryptonic_06 {
+		padding: 40px 0 100px;
+	}
+	#about_cryptonic_06 .about_cryptonic-content {
+		text-align: center;
+	}
+	#about_cryptonic_06 .about-img {
+		margin: 0;
+	}
+	#about_cryptonic_06 .about_cryptonic-content h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	#about_cryptonic_06 .img-wrapper > img {
+		margin-top: 20%;
+		width: 100%;
+	}
+	#best_feature_06 .feature_items .single-wrapper {
+		margin-bottom: 20px;
+		padding-right: 22px;
+	}
+	#token_sale_06 .pricing_items .single-wrapper .pricing_single {
+		margin-left: 22px;
+		margin-bottom: 20px;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper {
+		display: inline;
+		border: medium none;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper ul {
+		width: 90%;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	#token_sale_06 .pricing_bottom .pricing_list_wrapper ul li {
+		margin-bottom: 30px;
+		min-height: 36px;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .distribution_details .token_shape .header-shape img {
+		width: 300px;
+	}
+	#footer-06 .footer_items .footer_single_list_1 {
+		width: 100%;
+	}
+	#footer-06 .footer_items .footer_single_list_2 {
+		width: 50%;
+	}
+	#footer-06 .footer_items .footer_single_list_3 {
+		width: 50%;
+	}
+	#footer-06 .footer_items .footer_single_list_4 {
+		width: 100%;
+	}
+	#footer-06 .footer_items {
+		flex-wrap: wrap;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_1 {
+		bottom: 40%;
+		left: 0;
+		width: 24%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_2 {
+		left: -10px;
+		bottom: -19%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_3 {
+		right: 0%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location_4 {
+		right: 0%;
+	}
+	#team_membar_06 .single-wrapper {
+		margin: 0px 15px;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 25px;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading a {
+		font-size: 18px;
+		display: inherit;
+		line-height: 25px;
+	}
+	#faq-area-06 .faq-img {
+		text-align: center;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		height: auto;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .panel-title > a.collapsed::before {
+		padding-right: 1px;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .panel-title > a::before {
+		padding-top: 0px;
+		padding-right: 0;
+	}
+	#faq-area-06 .faq-wrapper {
+		margin-top: 50px;
+	}
+	#faq-area-06 .faq-wrapper .accordion-wrapper .accordion-single .panel-heading {
+		padding: 7px 0px;
+	}
+	#token_sale_06 .single-wrapper {
+		margin-bottom: 30px;
+	}
+	#best_feature_06 .feature_items .single-wrapper {
+		padding: 0 15px;
+	}
+	#best_feature_06 .feature_items .single-wrapper:last-child {
+		padding-left: 15px;
+	}
+	#best_feature_06 .feature_items .single-wrapper {
+		margin-bottom: 20px;
+		padding-right: 15px;
+	}
+	#token_sale_06 .pricing_items .single-wrapper .pricing_single {
+		margin-left: 0px;
+	}
+	#token_sale_06 .pricing_items .single-wrapper .pricing_single {
+		margin: 0 0px;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .distribution_details h3 {
+		min-height: 200px;
+		min-width: 200px;
+	}
+	#best_feature_06 .feature_items .single-wrapper:first-child {
+		padding-right: 15px;
+	}
+	.distribution_single_item {
+		margin-bottom: 100px;
+	}
+	#token_distribution_06 {
+		padding: 0px 0;
+	}
+	.distribution_single_item:last-child {
+		margin-bottom: 0px;
+	}
+	.distribution_single_item:last-child {
+		margin-bottom: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_1 p {
+		margin-bottom: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details span::before {
+		display: none !important;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details {
+		position: static;
+		bottom: 0 !important;
+		left: 0 !important;
+		transform: translate(0%) !important;
+		display: flex;
+		justify-content: left;
+		width: 100%;
+		padding-left: 0px;
+		padding-bottom: 15px;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content {
+		margin-top: 100px;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_2 p {
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_3 p {
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_5 p {
+		margin-top: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_6 p {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_4 p {
+		margin-top: 0;
+		margin-right: 0;
+	}
+	#token_distribution_06 .distribution_single .distribution_wrapper .details_content .details p {
+		position: relative;
+	}
+	.details_caption {
+		position: absolute;
+		right: 0;
+	}
+	#roadmap_06 .location_04 .location_wrapper .roadmap_position {
+		height: 100%;
+		width: 100%;
+	}
+	#roadmap_06 .location_04 .location_wrapper .location {
+		position: static;
+		width: 95%;
+		margin: 0px auto;
+		margin-bottom: 30px;
+	}
+	#companis_supported_06 {
+		padding: 0 0 0px;
+	}
+	#companis_supported_06 .companis_supported_logos {
+		max-height: 100% !important;
+		background: none;
+	}
+	#companis_supported_06 .companis_supported_logos ul {
+	    display: inherit;
+		flex-wrap: wrap;
+		padding: 15px 0px;
+	}
+	#companis_supported_06 .companis_supported_logos ul li {
+		width: 100%;
+		margin-bottom: 30px;
+		justify-content: space-between;
+		margin: 0px auto;
+	}
+	#companis_supported_06 .companis_supported_logos ul li img {
+		margin-bottom: 30px;
+	}
+	#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form {
+		width: 294px;
+	}
+	#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+		font-size: 15px;
+		width: 91px;
+		cursor: pointer;
+	}
+	#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group input {
+		padding: 0 151px 0 10px;
+	}
+	#contact_06 {
+		padding: 50px 0;
+	}
+	#contact_06 .address_wrapper {
+		margin-left: 0;
+	}
+	#footer-06 p {
+		margin: 0 0% 0 0;
+	}
+	#footer-06 {
+		padding-top: 100px;
+	}
+	#blog .blog_singel {
+		margin-bottom: 20px;
+	}
+	#blog-post .post-area .blog_wrapper {
+		padding: 20px 15px;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+		position: relative;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text {
+		padding: 0;
+	}
+	.blog_details .commnet-wrapper .comment-list-items .reply-comment {
+		text-align: right;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list {
+		margin-bottom: 15px;
+		background: #ffffff;
+		padding: 24px 20px 40px;
+	}
+	#blog-post .post-area .blog_wrapper .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text {
+		padding: 0 0px 0 15px;
+	}
+	#blog-post .post-area .blog_wrapper .commnet-wrapper .comment-list-items .comment-list-wrapper .reply_comment_text {
+		margin-left: 20px;
+	}
+	#blog-post .post-area .blog_wrapper .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+		position: relative;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+		padding: 24px 20px 50px;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author_info .author_name {
+		margin-right: 15px;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .commnet_img {
+		width: 60px;
+		margin-right: 15px;
+	}
+	#blog-single-wrapper .blog_details_left .blog_details .commnet-wrapper .comment-list-items .comment-list-wrapper .reply_comment_text {
+		margin-left: 15px;
+	}
+	.blog_details .commnet-wrapper .comment-list-items .reply-comment {
+		text-align: right;
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+	}
+	#blog .blog_singel .blog-img img {
+		width: 100%;
+	}
+	.leave_comment_wrapper {
+		margin-bottom: 100px;
+	}
+	#header-05 .intro-text .intro-img-wrapper ing {
+		width: 100%;
+	}
+	#roadmap_06 .location_04 {
+	    width: 100%;
+	}
+}
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#companis_supported_01 .companis_supported_logos ul li {
+	    width: 35% !important;
+	    margin-bottom: 30px;
+	    justify-content: space-between;
+	    margin: 0px auto;
+	}
+	#companis_supported_01 .companis_supported_logos ul {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    text-align: center;
+	}
+	.companis_supported_01 .companis_supported_logos ul li img, .companis_supported_06 .companis_supported_logos ul li img {
+	    width: 100%;
+	}
+	#companis_supported_06 .companis_supported_logos ul li {
+	    width: 35%;
+	    display: inline-block;
+	    margin: 0 30px;
+	}
+	#companis_supported_06 .companis_supported_logos ul li {
+	    width: 35%;
+	}
+	/* index-05 */
+	#header-05 .intro-text .btn_video_wrapper .video_wrapper .video-play-btn {
+		margin-left: 117px;
+	}
+	.shape3.header-shape > img {
+		display: none;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter {
+		margin-left: 26%;
+	}
+	#about_cryptonic_05 .about_2_item img,
+	#multiple-income-05 .about-img > img {
+		margin-left: -26px;
+	}
+	/* index-01 */
+	#header-01 .img-wrapper .intro-img img {
+		margin-left: 26%;
+		margin-top: 20%;
+		width: 68%;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form {
+		width: 400px;
+	}
+	#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+		width: 117px;
+	}
+	#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form {
+		width: 400px;
+	}
+	#header-02 .earning-02 .earning-wrapper {
+		padding: 50px 80px;
+	}
+	#header-02 .earning-02 .earning-wrapper .single-earnings {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	#earning-04 .earning-wrapper .single-earnings {
+		padding: 60px 20%;
+	}
+	#real_investor_04 .best_price {
+		display: flex;
+	}
+	#real_investor_04 .best_price .single_items h3 {
+		font-size: 40px;
+	}
+	#real_investor_04 .about-img > img {
+		width: 69%;
+	}
+	#ico_start_05 .you_earning_wrapper .countdown_time .clock-countdown .single-counter {
+		margin-left: 0;
+	}
+	.header-01 {
+	    min-height: 620px;
+	}
+}

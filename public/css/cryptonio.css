@@ -1,0 +1,406 @@
+.header .navbar .language .dsix span {
+ color: #19233b;
+ font-weight: 400;
+}
+#blog .blog_singel .blog-meta .share_options li a {
+ margin-left: 10px;
+}
+
+
+
+
+/* Updated css*/
+#token_distribution_06 {
+    position: relative;
+}
+#faq-area-06 {
+    position: relative;
+}
+#contact_06 {
+    position: relative;
+}
+.particles{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+}
+
+#header-06 .bubble1 {
+    top: 20%;
+    left: 12%;
+}
+#header-06 .bubble2 {
+    top: 11%;
+    right: 11%;
+}
+#header-06 .bubble3 {
+    bottom: 21%;
+    right: 15%;
+}
+#header-06 .bubble4 {
+    top: 35%;
+    left:45%;
+}
+#welcome_cryptonic_06 .bubble1 {
+    top: 40%;
+    left: 15%;
+    position: absolute;
+}
+#welcome_cryptonic_06 .bubble2 {
+    top: 15%;
+    right: 11%;
+    position: absolute;
+}
+#about_cryptonic_06 .bubble1 {
+    top: 40%;
+    left: 15%;
+    position: absolute;
+}
+#about_cryptonic_06 .bubble2 {
+    top: 15%;
+    right: 11%;
+    position: absolute;
+}
+#about_cryptonic_06 .bubble3 {
+    bottom: 40%;
+    left:60%;
+}
+#token_sale_06 .bubble1 {
+    top: 20%;
+    left: 12%;
+	position: absolute;
+}
+#token_sale_06 .bubble2 {
+    top: 5%;
+    right: 11%;
+	position: absolute;
+}
+#token_sale_06 .bubble4 {
+    bottom: 30%;
+    left: 5%;
+    position: absolute;
+}
+#companis_supported_06 .bubble1 {
+    top: 5%;
+    left: 10%;
+	position: absolute;
+}
+#companis_supported_06 .bubble2 {
+    bottom: 40%;
+    right: 15%;
+	position: absolute;
+}
+
+#team_membar_06 .bubble1 {
+    top: 20%;
+    left: 12%;
+	position: absolute;
+}
+#team_membar_06 .bubble2 {
+    top: 50%;
+    right: 11%;
+	position: absolute;
+}
+#team_membar_06 .bubble4 {
+    bottom: 30%;
+    left: 5%;
+    position: absolute;
+}
+
+/*
+#header-06 .intro-text .btn_video_wrapper .btn {
+    background: linear-gradient(-45deg , #9982ed 0%, #f879b6 100%);
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#header-06 .intro-text .btn_video_wrapper .btn:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(-15deg , #f879b6 0%, #9982ed 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#header-06 .intro-text .btn_video_wrapper .btn:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+*/
+#header-06 .intro-text .btn_video_wrapper .btn:hover{
+    background: linear-gradient(-15deg , #f879b6 0%, #9982ed 100%);
+}
+#header-06 .navbar .language .token {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#header-06 .navbar .language .token:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, #9982ed 0%, #f879b6 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#header-06 .navbar .language .token:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+#header-06 .countdown_time .count-time_btn a {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#header-06 .countdown_time .count-time_btn a:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, #9982ed 0%, #f879b6 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+#header-06 .countdown_time .count-time_btn a:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+#header-06 .countdown_time .count-time_btn a:hover span{
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+#welcome_cryptonic_06 .about_cryptonic-content a {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#welcome_cryptonic_06 .about_cryptonic-content a:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#welcome_cryptonic_06 .about_cryptonic-content a:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+#about_cryptonic_06 .about_cryptonic-content a {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#about_cryptonic_06 .about_cryptonic-content a:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#about_cryptonic_06 .about_cryptonic-content a:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+#contact_06 .contact_form form .submit-btn input:hover {
+    background: linear-gradient(to bottom, #f879b6 0%, #9982ed 100%);
+}
+#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+#welcome_cryptonic_06 .about_cryptonic-content a, #about_cryptonic_06 .about_cryptonic-content a, #header-01 .intro-text a{
+    font-weight: 500;
+}
+#roadmap_06 .location_04 .location_wrapper .location_1, #roadmap_01 .location_04 .location_wrapper .location_1 {
+    left: -1%;
+}
+#roadmap_06 .location_04 .location_wrapper .location_4, #roadmap_01 .location_04 .location_wrapper .location_4 {
+    right: -1%;
+}
+#header-01 .navbar .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+}
+#header-01 .navbar .language .token {
+    padding: 8px 30px;
+    border-radius: 100px;
+}
+#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:hover {
+    cursor: pointer;
+}
+#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #24e8a7 0%, #08aeea 100%);
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to bottom, #24e8a7 0%, #08aeea 100%)
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#subscribe_area_01 .subscribe-wrapper #subscribe .subscribe-form form .form-group button:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+.header-01{
+    min-height: 880px;
+}
+.header-01 .navbar .language .token:hover{
+	background: #fe9a8b;
+}
+#subscribe-wrapper #subscribe .subscribe-form form button{
+	transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.header .intro-text .intro_btn_3:hover, #benefits #about_cryptonic .about_cryptonic-content .btn-default-style:hover, #countdown-area .btn-default-style:hover, #subscribe-wrapper #subscribe .subscribe-form form button:hover {
+    background: #fe9a8b;
+}
+#header-02 .navbar .language .token:hover{
+	background: #562ad8;
+}
+#header-02 .intro-text .btn_video_wrapper a:hover, #pricing_charts_02 .chats-wrapper .btn-default-style:hover, #ico_news_02 .title-wrapepr .more_news:hover{
+	background: #00e9fe;
+	color: #fff;
+}
+#header-04 .is-sticky nav.navbar{
+    background: #020c59;
+    border-radius: 0;
+    box-shadow: 0px 1px 21px -1px rgba(108, 102, 231, 0.2);
+    z-index: 99;
+    transition: all 1s ease-in-out;
+}
+#header-04 .navbar .language .token:hover{
+    background: #ff7050;
+}
+#header-05 .navbar .language .token:hover{
+	background: #19233b;
+}
+#about_cryptonic_05 .about_cryptonic-content a:hover{
+	background: #12ddd0;
+	color: #fff;
+}
+#header-02 .navbar .navbar-nav .nav-item .nav-link.active{
+    color: #43d796;
+    font-weight: 500;
+}
+#header-02 .is-sticky .navbar .language .token:hover{
+    background: #ffffff;
+    color: #562ad8;
+}
+#you_earning_04 .you_earning_wrapper .calculate-form button:hover{
+    transition: all 0.3s ease-in-out; 
+}
+#you_earning_04 .you_earning_wrapper .calculate-form button:hover{
+    background:#8642b2; 
+}
+#you_earning_04 .you_earning_wrapper .calculate-form input, #you_earning_04 .you_earning_wrapper .calculate-form select{
+    outline: none;
+}
+#team_membar_01 .single-wrapper .team-single-item figure .member-img:before{
+    background: linear-gradient(to bottom, rgba(8, 174, 234, 0.7) 0%, rgba(36, 232, 167, 0.7) 100%);
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    opacity: 0.4;
+    visibility: visible;
+}
