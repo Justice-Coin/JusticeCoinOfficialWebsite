@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Oops!</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Oops!</h1>
+        <p class="lead">Something went wrong! Please try again or contact our help desk at contact@JusticeCoin.org</p>
+        <p class = "lead"> Status Code <%= statusCode %> </p>
+
+      <form action="/emailSubscribeFailure" method="post">
+        <button class = "btn btn-large btn-warning" type="submit" name="button">Try Again</button>
+      </form>
+            </div>
+    </div>
+  </body>
+</html>
