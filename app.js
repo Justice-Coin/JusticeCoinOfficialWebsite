@@ -29,7 +29,7 @@ app.get('/web-miner', function(req, res){
 
 app.get('/download', function(req, res){
   res.render('download');
-});
+}); 
 
 app.get('/blog', function(req, res){
   res.render('blog');

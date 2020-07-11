@@ -165,13 +165,6 @@ button:focus {
 /*==========================
         2.HELPER
 ============================*/
-.section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  position: relative;
-  background-color: #fff;
-}
-
 .bg-dark {
   background-color: #000;
 }
@@ -218,10 +211,6 @@ button:focus {
 
 .bg-custom {
   background-color: #000;
-}
-
-.section-main-title {
-  max-width: 570px;
 }
 
 .main-title-border::after,
@@ -1059,27 +1048,172 @@ button:focus {
 /*==========================
         16.FOOTER
 ============================*/
-.fot_social .social-icon {
-  border: 2px solid #868e96;
-  border-radius: 50%;
-  transition: all 0.5s;
-  width: 42px;
-  height: 42px;
-  display: block;
-  font-size: 18px;
-  line-height: 38px;
-  text-align: center;
+
+/*FOOTER*/
+.site-footer
+{
+  background-color:#000;
+  padding:45px 0 20px;
+  font-size:17px;
+  line-height:24px;
+  color:#808080;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.github:hover
+{
+  background-color:#000
+}
+.social-icons a.twitter:hover
+{
+  background-color:#000
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#000
+}
+.social-icons a.instagram:hover
+{
+  background-color:#000
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
 
-.fot_social .social-icon:hover {
-  border-color: #000;
-  color: #000 !important;
-  transform: rotate(360deg);
-}
-
-.copy-rights {
-  line-height: 43px;
-}
 
 /*==========================
         17.BLOG PAGE
@@ -1434,8 +1568,8 @@ button:focus {
 
 .card-holder {
   text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px
+  padding-top: 10vh;
+  padding-bottom: 10vh
 }
 
 .wayfinding-text {
@@ -1446,13 +1580,13 @@ button:focus {
 
 .card {
   box-sizing: border-box;
-  padding: 17.8px 15px;
+  padding: 20px 10px;
   min-height: 270px;
-  width: calc(20%);
-  margin: 0 30px 0 0;
+  width: 15vw;
+  margin: 0 20px 0 0;
   font-size: 20px;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 1.25;
   border-radius: 8px;
   box-shadow: 0 15px 31px 0 rgba(0, 7, 92, 0.5);
 }
@@ -1463,4 +1597,37 @@ a.card-link {
 
 a.card-link:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.card-text {
+  font-size: 23px;
+}
+
+.section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.section_beginner {
+  background-color: #3130A9;
+}
+
+.section_intermediate {
+  background-color: #500090;
+}
+
+.section_advanced {
+  background-color: #010079;
+}
+
+.section_try {
+  background-color: #500077;
+}
+.section_contact {
+  background-color: #eee;
+}
+
+.subheader {
+  font-size: 23px;
+  font-family: PT Serif;
 }
