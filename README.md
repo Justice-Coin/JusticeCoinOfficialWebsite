@@ -1,4 +1,5 @@
 Todo:
-- Add loader
-- Add particle animations
-- Remove local script refs and add cdn.
+- Make Loader Work
+- Add FAQ
+- Add email -- > mailchimp
+- Add Number of site visits from unique url counter?
