@@ -64,7 +64,7 @@
             <a href="/blog" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="/contact" class="nav-link">Contact</a>
+            <a href="/#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -219,17 +219,15 @@
       <!--Grid column-->
       <div class="col-md-12 mb-md-0 mb-5">
         <form class="text-center" id="contact" name="email_form" action="/" method="POST">
-          <input type="text" id="email" name="email" class="form-control form-control-lg" placeholder="Your Email">
+          <input type="text" id="email" name="email_address" class="form-control form-control-lg" placeholder="Your Email">
+          <br>
+          <button type="submit" class = "btn btn-large btn-outline-success btn-lg" name="submit_email"><strong><i>Sign Up</i></strong></button>
       </div>
     </div>
 
   </section>
-  <!--Section: Contact v.2-->
   <!-- END SECTION CONTACT -->
   <!-- PUT "BACK TO TOP" BUTTON -SHREY -->
-
-
-
   <!-- START FOOTER -->
   <%- include("partials/footer") -%>
   <!-- END FOOTER -->
