@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/learn', function(req, res){
-  res.render('learn');
+  res.renderFile('learn');
 });
 
 app.get('/about', function(req, res){
