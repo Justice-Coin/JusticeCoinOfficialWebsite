@@ -34,21 +34,9 @@
         });
     },
 
-    //Smooth
-    ElvishApp.prototype.initNavbarSmooth = function() {
-        $('.navbar-brand, .navbar-nav a').on('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 0
-            }, 1500, 'easeInOutExpo');
-            event.preventDefault();
-        });
-    },
-
     ElvishApp.prototype.init = function() {
         this.initPreLoader();
         this.initNavbarStickey();
-        this.initNavbarSmooth();
     },
 
     //init

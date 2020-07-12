@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/learn', function(req, res){
-  res.renderFile('learn');
+  res.render('learn');
 });
 
 app.get('/about', function(req, res){
@@ -58,10 +58,10 @@ app.post('/', function(req, res){
   const request = https.request(url, options, function(response){
     response.on("data", function(data){
       if (response.statusCode == 200) {
-        res.render('emailSubscribeSuccess');
+        res.render('');
       } else {
         console.log(response.statusCode);
-        res.render('emailSubscribeFailure', {statusCode: response.statusCode});
+        res.render('', {statusCode: response.statusCode});
       }
     });
   });
