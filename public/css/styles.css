@@ -414,18 +414,10 @@ button:focus {
 }
 
 .logo .logo-light {
-  display: inline-block;
+  display: block;
 }
 
-.stickyadd .logo .logo-dark {
-  display: inline-block;
-}
-
-.stickyadd .logo .logo-light {
-  display: none;
-}
-
-.logo .logo-dark {
+.stickyadd .logo {
   display: none;
 }
 
@@ -436,13 +428,6 @@ button:focus {
 /*==========================
         4.HOME
 ============================*/
-.home-bg {
-  background-image: url(../images/tesselation.jpg);
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
 .home-table-center {
   display: table-cell;
   vertical-align: middle;
@@ -1567,15 +1552,8 @@ button:focus {
 }
 
 .card-holder {
-  text-align: left;
   padding-top: 10vh;
   padding-bottom: 10vh
-}
-
-.wayfinding-text {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .card {
@@ -1603,7 +1581,7 @@ button:focus {
 }
 
 .section {
-  padding-top: 10vh;
+  padding-top: 20vh;
   padding-bottom: 10vh;
 }
 

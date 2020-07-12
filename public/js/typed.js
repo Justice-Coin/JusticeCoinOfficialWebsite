@@ -88,9 +88,9 @@
 
         Typed.prototype =  {
 
-            constructor: Typed
+            constructor: Typed,
 
-            , init: function(){
+            init: function(){
                 // begin the loop w/ first current string (global self.string)
                 // current string will be passed as an argument each time after this
                 var self = this;
@@ -98,19 +98,19 @@
                     // Start typing
                     self.typewrite(self.strings[self.arrayPos], self.strPos);
                 }, self.startDelay);
-            }
+            },
 
-            , build: function(){
+            build: function(){
                 // Insert cursor
                 if (this.showCursor === true){
                   this.cursor = $("<span class=\"typed-cursor\">" + this.cursorChar + "</span>");
                   this.el.after(this.cursor);
                 }
                 this.init();
-            }
+            },
 
             // pass current string state to each function, types 1 char per call
-            , typewrite: function(curString, curStrPos){
+            typewrite: function(curString, curStrPos){
                 // exit when stopped
                 if(this.stop === true)
                    return;
@@ -194,9 +194,9 @@
                 // humanized value for typing
                 }, humanize);
 
-            }
+            },
 
-            , backspace: function(curString, curStrPos){
+            backspace: function(curString, curStrPos){
                 // exit when stopped
                 if (this.stop === true) {
                    return;
@@ -254,7 +254,7 @@
                 // humanized value for typing
                 }, humanize);
 
-            }
+            },
 
             // Start & Stop currently not working
 
@@ -275,11 +275,11 @@
             // }
 
             // Reset and rebuild the element
-            , reset: function(){
+            reset: function(){
                 var self = this;
                 clearInterval(self.timeout);
                 var id = this.el.attr('id');
-                this.el.after('<span id="' + id + '"/>')
+                this.el.after('<span id="' + id + '"/>');
                 this.el.remove();
                 this.cursor.remove();
                 // Send the callback
@@ -290,9 +290,9 @@
 
     $.fn.typed = function (option) {
         return this.each(function () {
-          var $this = $(this)
-            , data = $this.data('typed')
-            , options = typeof option == 'object' && option;
+          var $this = $(this),
+            data = $this.data('typed'),
+            options = typeof option == 'object' && option;
           if (!data) $this.data('typed', (data = new Typed(this, options)));
           if (typeof option == 'string') data[option]();
         });
