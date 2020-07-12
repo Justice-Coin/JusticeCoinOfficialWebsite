@@ -403,7 +403,8 @@ button:focus {
   font-size: 24px;
   margin-top: 5px;
   margin-bottom: 0px;
-  color: #ffffff;
+  background-color: #fff;
+  color: #000;
 }
 
 .nav .open>a,
@@ -1037,8 +1038,12 @@ button:focus {
 /*FOOTER*/
 .site-footer
 {
+  position: relative;
+  bottom: 0;
+  margin-top: 10vh; /* negative value of footer height */
   background-color:#000;
   padding:45px 0 20px;
+  margin-bottom: 0px;
   font-size:17px;
   line-height:24px;
   color:#808080;
@@ -1605,6 +1610,17 @@ button:focus {
 }
 
 .subheader {
+  font-size: 23px;
+  font-family: PT Serif;
+}
+
+.faq-question {
+  color: #000080;
+  font-weight: bold;
+}
+
+.faq-answer {
+  color: #000;
   font-size: 23px;
   font-family: PT Serif;
 }

@@ -17,7 +17,7 @@ app.get(['/', '/home'], function(req, res){
 });
 
 app.get('/faq', function(req, res){
-  res.render('learn');
+  res.render('faq');
 });
 
 app.get('/about', function(req, res){
