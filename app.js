@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 
 
-app.get('/', function(req, res){
+app.get(['/', '/home'], function(req, res){
   res.render('index');
 });
 
-app.get('/learn', function(req, res){
+app.get('/faq', function(req, res){
   res.render('learn');
 });
 
@@ -58,10 +58,10 @@ app.post('/', function(req, res){
   const request = https.request(url, options, function(response){
     response.on("data", function(data){
       if (response.statusCode == 200) {
-        res.render('');
+        res.render('emailSuccess');
       } else {
         console.log(response.statusCode);
-        res.render('', {statusCode: response.statusCode});
+        res.render('emailFailure', {statusCode: response.statusCode});
       }
     });
   });
