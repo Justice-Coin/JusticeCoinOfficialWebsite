@@ -1579,23 +1579,22 @@ button:focus {
 }
 
 .card {
-  box-sizing: border-box;
-  padding: 20px 10px;
-  min-height: 270px;
-  width: 15vw;
-  margin: 0 20px 0 0;
-  font-size: 20px;
   font-weight: bold;
-  line-height: 1.25;
-  border-radius: 8px;
-  box-shadow: 0 15px 31px 0 rgba(0, 7, 92, 0.5);
+  margin: 5vh auto;
+  max-width: 300px;
+  min-height: 300px;
+  padding: 30px 10px;
+  border-radius: 16px;
+  box-shadow: 0 15px 31px 0 rgba(0, 7, 92, 0.4);
 }
 
-a.card-link {
+.card-link {
   color: rgba(255, 255, 255, 1);
+  display: block;
 }
 
-a.card-link:hover {
+.card-link:hover {
+  display: block;
   color: rgba(255, 255, 255, 0.5);
 }
 
