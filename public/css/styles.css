@@ -1615,12 +1615,16 @@ button:focus {
 }
 
 .faq-question {
-  color: #000080;
+  color: #000050;
   font-weight: bold;
 }
 
+.faq-question:hover {
+  color: #0000A0;
+}
+
 .faq-answer {
-  color: #000;
-  font-size: 23px;
+  color: #333;
+  font-size: 21px;
   font-family: PT Serif;
 }
