@@ -1598,7 +1598,7 @@ button:focus {
 }
 
 .card-link-team h5 {
-  
+
     /* MOVE CSS HERE AND ADD HOVER LINK */
 }
 
@@ -1641,6 +1641,10 @@ button:focus {
 }
 .section_contact {
   background-color: #eee;
+}
+
+.section_contact {
+  margin-top: 10vh;
 }
 
 .subheader {

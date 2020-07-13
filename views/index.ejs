@@ -2,24 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Justice Coin | Decentralized Activism</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="Justice Coin">
 
-  <link rel="icon" href="images/favicon.ico">
-  <!--Bootstrap Css-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Animate Css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-
-  <!-- Custom style Css -->
-  <link rel="stylesheet" href="css/styles.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+  <%- include("partials/header", {pageTitle: "JusticeCoin Decentralized Activism"}) -%>
 </head>
 
 <body style="background-color: #eee">
@@ -37,9 +21,9 @@
     <div class="container">
       <!-- LOGO -->
       <div class="navbar-brand">
-      <a class="logo anchor" href="/">
-        <img src="images/JusticeCoinLogo.png" alt="JusticeCoinLogo" class="img-fluid logo-light" style="position: fixed; top: 10px; width: 250px; height: auto">
-      </a>
+        <a class="logo anchor" href="/">
+          <img src="images/JusticeCoinLogo.png" alt="JusticeCoinLogo" class="img-fluid logo-light" style="position: fixed; top: 10px; width: 250px; height: auto">
+        </a>
 
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,10 +32,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="#" class="nav-link">Home</a>
+            <a href="/#" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="/faq" class="nav-link">FAQ</a>
+            <a href="/#faq" class="nav-link faqClicker">FAQ</a>
           </li>
           <li class="nav-item">
             <a href="/about" class="nav-link">About Us</a>
@@ -62,16 +46,17 @@
           <li class="nav-item">
             <a href="/download" class="nav-link">Download</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="/blog" class="nav-link">Blog</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a href="/#contact" class="nav-link">Contact</a>
+            <a href="/#contact" class="nav-link" id="contactClicker">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
   <!-- END NAVBAR -->
 
   <!--START HOME-->
@@ -120,9 +105,9 @@
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card" style="background-color: #010079">
           <a href="#route-beginner">
-          <div class="card-body card-link">
-            <p class="card-text">I'm new to crypto. Explain how it all works.</p>
-          </div>
+            <div class="card-body card-link">
+              <p class="card-text">I'm new to crypto. Explain how it all works.</p>
+            </div>
           </a>
         </div>
       </div>
@@ -130,9 +115,9 @@
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card" style="background-color: #C09000">
           <a href="#route-intermediate">
-          <div class="card-body card-link">
-            <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
-          </div>
+            <div class="card-body card-link">
+              <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
+            </div>
           </a>
         </div>
       </div>
@@ -140,9 +125,9 @@
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card" style="background-color: #1B73D3">
           <a href="#route-advanced">
-          <div class="card-body card-link">
-            <p class="card-text">How does JusticeCoin Work?</p>
-          </div>
+            <div class="card-body card-link">
+              <p class="card-text">How does JusticeCoin Work?</p>
+            </div>
           </a>
         </div>
       </div>
@@ -150,9 +135,9 @@
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card" style="background-color: #500090">
           <a href="#route-try">
-          <div class="card-body card-link">
-            <p class="card-text">I want to try it out!</p>
-          </div>
+            <div class="card-body card-link">
+              <p class="card-text">I want to try it out!</p>
+            </div>
           </a>
         </div>
       </div>
@@ -230,50 +215,99 @@
           <h2 class="font-weight-bold " style="color: #F0C000">Download Our Miner</h2>
           <p class="text-white" style="font-size: 20px">You can download our secure <a href="/download">desktop app</a> or you can try out our <a href="/web-miner">web miner</a>.</p>
           <p class="text-white subheader" style="font-size: 20px">Note: most antiviruses consider all crypto-miners as malware, including our software. We promise that JusticeCoin is completely safe to download and we will never collect any personal
-            information about you. For a full list of security features, please visit our <a href="/faq">FAQ</a>.</p>
+            information about you. For a full list of security features, please visit our <a href="#faq" class="faqClicker">FAQ</a>.</p>
         </div>
       </div>
     </div>
   </section>
   <!-- END SECTION TRY -->
 
+  <!-- START SECTION FAQ -->
+  <!-- START SEARCH BAR -->
+  <section id="faqPlace" class="mt-5">
+
+    <section class="container-fluid" style="background-color: #eee; margin-top: 5vh">
+      <div class="text-center">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <div class="container" style="margin-top: 5vh">
+        <form class="text-center" action="/faq" method="POST">
+          <input type="text" autocomplete="off" name="faq-search" class="form-control form-control-lg" placeholder="Search For Questions">
+        </form>
+      </div>
+    </section>
+    <!-- END SEARCH BAR -->
+    <!-- START QUESTIONS -->
+
+    <section class="container" style="margin-top: 5vh">
+      <div class="row">
+
+
+        <div class="col-lg-12">
+
+          <% for (let i = 0; i<faqs.length; i++) {%>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title mb-3">
+                  <a data-toggle="collapse" class="faq-question" href="<%= '#collapse1'.concat(i) %>"> • <%= faqs[i].question %></a>
+                </h3>
+              </div>
+              <div id="<%= 'collapse1'.concat(i) %>" class="panel-collapse collapse">
+                <div class="panel-body faq-answer mb-3"><i><%= faqs[i].answer %></i></div>
+              </div>
+            </div>
+          </div>
+          <% } %>
+
+        </div </div>
+    </section>
+    <!-- END QUESTIONS -->
+  </section>
+
+  <!-- END SECTION FAQ -->
+  <br><br>
+  <hr style="width: 90vw">
   <!-- START SECTION CONTACT -->
-  <section class="section mb-4">
+  <section class="section_contact" id="contactPlace">
 
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Want To Join <span class="text-info">JusticeCoin</span>?</h2>
+    <h2 class="h1-responsive font-weight-bold text-center">Want To Join <span class="text-info">JusticeCoin</span>?</h2>
     <!--Section description-->
-    <h5 class="text-center w-responsive mx-auto mb-5" style="font-size: 20px; font-weight:semi-bold"><u>We're currently looking for testers and new team members so sign up and stay up to date!</u></h5>
+    <h5 class="text-center w-responsive mx-auto mb-5 mt-5" style="font-size: 20px; font-weight:semi-bold"><u>We're currently looking for testers and new team members so sign up and stay up to date!</u></h5>
+    <h5 class="text-center w-responsive mb-5" style="font-size: 20px; font-weight:semi-bold">You can also email us at <strong>contact@JusticeCoin.com</strong></h5>
 
     <div class="container">
-      <!--Grid column-->
-      <div class="col-md-12 mb-md-0 mb-5">
-        <form class="text-center" id="contact" name="email_form" action="/" method="POST">
+      <div class="col-md-12 mb-md-0 mb-5 text-center">
+        <form class="text-center" name="email_form" action="/home" method="POST">
           <input type="text" id="email" name="email_address" class="form-control form-control-lg" placeholder="Your Email">
           <br>
           <button type="submit" class="btn btn-large btn-outline-success btn-lg" name="submit_email"><strong><i>Sign Up</i></strong></button>
+        </form>
       </div>
     </div>
 
   </section>
   <!-- END SECTION CONTACT -->
+
   <!-- PUT "BACK TO TOP" BUTTON HERE -->
   <!-- START FOOTER -->
   <%- include("partials/footer") -%>
   <!-- END FOOTER -->
 
-  </body>
-  <!-- BASE JAVASCRIPTS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- TYPED -->
-  <script src="js/typed.js"></script>
-  <!--PARTICLES ANIMATE JS-->
-  <script src="js/particles.js"></script>
-  <script src="js/particles.app.js"></script>
-  <!--CUSTOM JS-->
-  <script src="js/navbarScroll.js"></script>
-  <script src="js/homeTyper.js"></script>
-
+</body>
+<!-- BASE JAVASCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- TYPED -->
+<script src="js/typed.js"></script>
+<!--PARTICLES ANIMATE JS-->
+<script src="js/particles.js"></script>
+<script src="js/particles.app.js"></script>
+<!--CUSTOM JS-->
+<script src="js/navbarScroll.js"></script>
+<script src="js/homeTyper.js"></script>
+<script src="js/hashAnchors.js">
+</script>
 
 </html>

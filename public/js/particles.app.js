@@ -112,7 +112,7 @@ particlesJS('home',
           "distance": 100
         },
         "push": {
-          "particles_nb": 10
+          "particles_nb": 1
         },
         "remove": {
           "particles_nb": 2

@@ -64,13 +64,11 @@ const team = [{
 ];
 
 app.get(['/', '/home'], function(req, res) {
-  res.render('index');
+  res.render('index', {faqs: faqs});
 });
 
 app.get('/faq', function(req, res) {
-  res.render('faq', {
-    faqs: faqs
-  });
+  res.redirect('/#faq');
 });
 
 app.get('/about', function(req, res) {
@@ -91,7 +89,7 @@ app.get('/blog', function(req, res) {
   res.render('blog');
 });
 
-app.post('/', function(req, res) {
+app.post(['/', '/home'], function(req, res) {
   // Make the mailchimp api and email validation thing into a separate module. Code is getting messy.
   // Add sophisticated email verificaion and better error messages for mailchimp.
 
