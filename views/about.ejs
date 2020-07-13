@@ -75,174 +75,46 @@
   <!-- START MEMBER CARDS -->
   <!-- MAKE EFFICIENT WITH EJS TEMPLATES -->
   <section container-fluid>
+    <% for (let i = 0; i<team.length; i += 3) { %>
     <div class="row text-center">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-beginner">
-          <div class="card-body card-link">
-            <p class="card-text">I'm new to crypto. Explain how it all works.</p>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card team">
+          <a href="">
+          <div class="card-body card-link-team">
+            <img src="<%= team[i].imageSource %>" alt="Pic of <%=team[i].name%>">
+            <h3 class="text-danger"><%= team[i].name %></h3>
+            <h5 class="text-dark"><%= team[i].position %></h5>
           </div>
           </a>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-intermediate">
-          <div class="card-body card-link">
-            <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card team">
+          <a href="">
+          <div class="card-body card-link-team">
+            <img src="<%= team[i+1].imageSource %>" alt="Pic of <%=team[i+1].name%>">
+            <h3 class="text-danger"><%= team[i+1].name %></h3>
+            <h5 class="text-dark"><%= team[i+1].position %></h5>
           </div>
           </a>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-advanced">
-          <div class="card-body card-link">
-            <p class="card-text">How does JusticeCoin Work?</p>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card team">
+          <a href="<%= team[i+2].imageSource %>">
+          <div class="card-body card-link-team">
+            <img src="" alt="Pic of <%=team[i+2].name%>">
+            <h3 class="text-danger"><%= team[i+2].name %></h3>
+            <h5 class="text-dark"><%= team[i+2].position %></h5>
           </div>
           </a>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-try">
-          <div class="card-body card-link">
-            <p class="card-text">I want to try it out!</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
     </div>
-    <div class="row text-center">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-beginner">
-          <div class="card-body card-link">
-            <p class="card-text">I'm new to crypto. Explain how it all works.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-intermediate">
-          <div class="card-body card-link">
-            <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-advanced">
-          <div class="card-body card-link">
-            <p class="card-text">How does JusticeCoin Work?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-try">
-          <div class="card-body card-link">
-            <p class="card-text">I want to try it out!</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <div class="row text-center">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-beginner">
-          <div class="card-body card-link">
-            <p class="card-text">I'm new to crypto. Explain how it all works.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-intermediate">
-          <div class="card-body card-link">
-            <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-advanced">
-          <div class="card-body card-link">
-            <p class="card-text">How does JusticeCoin Work?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-try">
-          <div class="card-body card-link">
-            <p class="card-text">I want to try it out!</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <div class="row text-center">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-beginner">
-          <div class="card-body card-link">
-            <p class="card-text">I'm new to crypto. Explain how it all works.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-intermediate">
-          <div class="card-body card-link">
-            <p class="card-text">I know what crypto is. What's unique about JusticeCoin?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-advanced">
-          <div class="card-body card-link">
-            <p class="card-text">How does JusticeCoin Work?</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card">
-          <a href="#route-try">
-          <div class="card-body card-link">
-            <p class="card-text">I want to try it out!</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
+    <% } %>
+<h1 class="text-center">WILL ADD OTHER PPL LATER ONCE I MAKE THIS CODE RESPONSIVE</h1>
   </section>
   <!-- END MEMBER CARDS -->
   <!-- START FOOTER -->

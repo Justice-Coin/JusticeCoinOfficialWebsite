@@ -31,6 +31,38 @@ const faqs = [{
   },
 ];
 
+const team = [{
+    name: "Pratyush Mallick",
+    imageSource: "",
+    position: "CEO/Director of Innovation"
+  },
+  {
+    name: "Yemisi Badmus",
+    imageSource: "",
+    position: "Director of Growth/Outreach"
+  },
+  {
+    name: "Mylinh Murphree",
+    imageSource: "",
+    position: "Director of Operations"
+  },
+  {
+    name: "Nila Jeyapriya",
+    imageSource: "",
+    position: "Director of IT"
+  },
+  {
+    name: "Dude 2",
+    imageSource: "",
+    position: "Professional meme maker of IT"
+  },
+  {
+    name: "Dude 3",
+    imageSource: "",
+    position: "Professional mememaker of IT"
+  },
+];
+
 app.get(['/', '/home'], function(req, res) {
   res.render('index');
 });
@@ -42,7 +74,9 @@ app.get('/faq', function(req, res) {
 });
 
 app.get('/about', function(req, res) {
-  res.render('about');
+  res.render('about', {
+    team: team
+  });
 });
 
 app.get('/web-miner', function(req, res) {
