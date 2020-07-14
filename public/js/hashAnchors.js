@@ -2,7 +2,7 @@
 
 $(function() {
 
-  const navBarHeight = 110;
+  const navBarHeight = 100;
   const faqClickers = document.getElementsByClassName("faqClicker");
   setTimeout(delayedFragmentTargetOffset, 10);
 
@@ -28,6 +28,56 @@ $(function() {
     }
   });
 
+  $("#homeClicker").on("click", function() {
+    let offset = $('#homePlace').offset();
+    if (Math.abs(offset.top - window.scrollY - navBarHeight) > 1) {
+      let scrollto = offset.top - navBarHeight; // minus fixed header height
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 500);
+    }
+  });
+
+  $("#route-beginnerClicker").on("click", function() {
+    let offset = $('#route-beginnerPlaceCard').offset();
+    if (Math.abs(offset.top - window.scrollY - navBarHeight) > 1) {
+      let scrollto = offset.top - navBarHeight; // minus fixed header height
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 500);
+    }
+  });
+
+  $("#route-intermediateClicker").on("click", function() {
+    let offset = $('#route-intermediatePlaceCard').offset();
+    if (Math.abs(offset.top - window.scrollY - navBarHeight) > 1) {
+      let scrollto = offset.top - navBarHeight; // minus fixed header height
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 500);
+    }
+  });
+
+  $("#route-advancedClicker").on("click", function() {
+    let offset = $('#route-advancedPlaceCard').offset();
+    if (Math.abs(offset.top - window.scrollY - navBarHeight) > 1) {
+      let scrollto = offset.top - navBarHeight; // minus fixed header height
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 500);
+    }
+  });
+
+  $("#route-tryClicker").on("click", function() {
+    let offset = $('#route-tryPlaceCard').offset();
+    if (Math.abs(offset.top - window.scrollY - navBarHeight) > 1) {
+      let scrollto = offset.top - navBarHeight; // minus fixed header height
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 500);
+    }
+  });
+
   // add scroll offset to fragment target (if there is one)
   function delayedFragmentTargetOffset() {
     var offset = $(window.location.hash.concat('Place')).offset();
@@ -35,7 +85,7 @@ $(function() {
       var scrollto = offset.top - navBarHeight; // minus fixed header height
       $('html, body').animate({
         scrollTop: scrollto
-      }, 1000);
+      }, 500);
     }
   }
 });
