@@ -19,40 +19,40 @@
   <!-- END PAGE TITLE -->
   <!-- START MEMBER CARDS -->
   <!-- MAKE EFFICIENT WITH EJS TEMPLATES -->
-  <section class="jumbotron">
-    <% for (let i = 0; i<team.length; i += 3) { %>
+  <section class="vc_row pt-200 pb-200 align-items-center">
+    <div class="row item-margin justify-content-center">
+      <% for (let i = 0; i<team.length; i ++) { %>
+      <div class="lqd-column col-md-3 col-sm-6 bg-white box-shadow-1 box-size box-margin box-padding">
+
+        <div class="ld-tm d-flex flex-column text-center px-md-3 hover-3d-applied" data-hover3d="true">
+          <div class="ld-tm-img mb-3 text-center">
+            <figure>
+              <img class="circle" src="<%= team[i].imageSource %>" alt="Pic of <%=team[i].name%>">
+            </figure>
+          </div><!-- /.ld-tm-img -->
+          <div class="ld-tm-info">
+            <h3 class="ld-tm-name size-sm font-weight-semibold mb-3"><%= team[i].name %></h3>
+            <h6 class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"><%= team[i].position %></h6>
+            <p class="opacity-06"></p>
+          </div><!-- /.ld-tm-info -->
+        </div><!-- /.ld-tm -->
+
+      </div><!-- /.lqd-column col-md-3 col-sm-6 -->
+      <% } %>
+    </div><!-- /.row -->
+
+    </div><!-- /.container -->
+  </section>
+  <!-- <section class="jumbotron">
+    <% for (let i = 0; i<team.length; i ++) { %>
     <div class="row text-center">
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col">
         <div class="card team">
           <a href="">
           <div class="card-body card-link-team">
-            <img src="<%= team[i].imageSource %>" alt="Pic of <%=team[i].name%>">
-            <h3 class="text-danger"><%= team[i].name %></h3>
-            <h5 class="text-dark"><%= team[i].position %></h5>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card team">
-          <a href="">
-          <div class="card-body card-link-team">
-            <img src="<%= team[i+1].imageSource %>" alt="Pic of <%=team[i+1].name%>">
-            <h3 class="text-danger"><%= team[i+1].name %></h3>
-            <h5 class="text-dark"><%= team[i+1].position %></h5>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card team">
-          <a href="<%= team[i+2].imageSource %>">
-          <div class="card-body card-link-team">
-            <img src="" alt="Pic of <%=team[i+2].name%>">
-            <h3 class="text-danger"><%= team[i+2].name %></h3>
-            <h5 class="text-dark"><%= team[i+2].position %></h5>
+            <img src="<%= team[i].imageSource %>" alt="">
+            <h3 class="text-danger"></h3>
+            <h5 class="text-dark"></h5>
           </div>
           </a>
         </div>
@@ -60,7 +60,7 @@
     </div>
     <% } %>
 <h1 class="text-center">WILL ADD OTHER PPL LATER ONCE I MAKE THIS CODE RESPONSIVE</h1>
-  </section>
+  </section> -->
   <!-- END MEMBER CARDS -->
   <!-- START FOOTER -->
   <%- include("partials/footer") -%>

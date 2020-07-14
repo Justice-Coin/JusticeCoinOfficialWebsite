@@ -34,12 +34,12 @@ const faqs = [{
 const team = [{
     name: "Pratyush Mallick",
     imageSource: "",
-    position: "CEO/Director of Innovation"
+    position: "CEO & Director of Innovation"
   },
   {
     name: "Yemisi Badmus",
     imageSource: "",
-    position: "Director of Growth/Outreach"
+    position: "Director of Growth & Outreach"
   },
   {
     name: "Mylinh Murphree",
@@ -52,9 +52,19 @@ const team = [{
     position: "Director of IT"
   },
   {
-    name: "Dude 2",
+    name: "Shrey Joshi",
     imageSource: "",
-    position: "Professional meme maker of IT"
+    position: "Developer"
+  },
+  {
+    name: "Rohit Rajan",
+    imageSource: "",
+    position: "Developer"
+  },
+  {
+    name: "Anay Gupta",
+    imageSource: "",
+    position: "Developer"
   },
   {
     name: "Dude 3",
