@@ -33,48 +33,66 @@ const faqs = [{
 
 const team = [{
     name: "Pratyush Mallick",
-    imageSource: "",
-    position: "CEO & Director of Innovation"
-  },
-  {
-    name: "Yemisi Badmus",
-    imageSource: "",
-    position: "Director of Growth & Outreach"
+    position: "Co-Founder & Director of Innovation"
   },
   {
     name: "Mylinh Murphree",
-    imageSource: "",
-    position: "Director of Operations"
+    position: "Co-Founder & Director of Operations"
+  },
+  {
+    name: "Tim Murphree",
+    position: "Technical Advisor"
   },
   {
     name: "Nila Jeyapriya",
-    imageSource: "",
     position: "Director of IT"
   },
   {
-    name: "Shrey Joshi",
-    imageSource: "",
-    position: "Developer"
+    name: "Ethan Davenport",
+    position: "Director of Finance"
   },
   {
     name: "Rohit Rajan",
-    imageSource: "",
-    position: "Developer"
+    position: "Director of Systems Architecture"
+  },
+  {
+    name: "Shrey Joshi",
+    position: "Web Development Lead"
+  },
+  {
+    name: "Brian Vo",
+    position: "SEO Specialist"
   },
   {
     name: "Anay Gupta",
-    imageSource: "",
+    position: "Development Lead"
+  },
+  {
+    name: "Ishaan Javali",
     position: "Developer"
   },
   {
-    name: "Dude 3",
-    imageSource: "",
-    position: "Professional mememaker of IT"
+    name: "Rohan Ganta",
+    position: "Developer"
+  },
+  {
+    name: "Cynthia Diep",
+    position: "Social Media Lead"
+  },
+  {
+    name: "Navi Lanka",
+    position: "Marketing Producer"
+  },
+  {
+    name: "Sophia Khan",
+    position: "Product Designer"
   },
 ];
 
 app.get(['/', '/home'], function(req, res) {
-  res.render('index', {faqs: faqs});
+  res.render('index', {
+    faqs: faqs
+  });
 });
 
 app.get('/faq', function(req, res) {
@@ -93,6 +111,18 @@ app.get('/web-miner', function(req, res) {
 
 app.get('/download', function(req, res) {
   res.render('download');
+});
+
+app.get('/download/windows', function(req, res) {
+  res.render('downloadWindows');
+});
+
+app.get('/download/mac', function(req, res) {
+  res.render('downloadMac');
+});
+
+app.get('/download/notSupported', function(req, res) {
+  res.render('notSupported');
 });
 
 app.get('/blog', function(req, res) {

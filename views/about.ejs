@@ -19,21 +19,20 @@
   <!-- END PAGE TITLE -->
   <!-- START MEMBER CARDS -->
   <!-- MAKE EFFICIENT WITH EJS TEMPLATES -->
-  <section class="vc_row pt-200 pb-200 align-items-center">
+  <section class="pt-200 pb-200 align-items-center">
     <div class="row item-margin justify-content-center">
       <% for (let i = 0; i<team.length; i ++) { %>
-      <div class="lqd-column col-md-3 col-sm-6 bg-white box-shadow-1 box-size box-margin box-padding">
+      <div class="card col-md-4 col-sm-6 bg-white team">
 
-        <div class="ld-tm d-flex flex-column text-center px-md-3 hover-3d-applied" data-hover3d="true">
-          <div class="ld-tm-img mb-3 text-center">
+        <div class="d-flex flex-column text-center px-md-3">
+          <div class="mb-4 text-center">
             <figure>
-              <img class="circle" src="<%= team[i].imageSource %>" alt="Pic of <%=team[i].name%>">
+              <img class="" style="width:90%; border-radius: 50%; padding-top: 10px" src="<%= 'images/team/'.concat(team[i].name.split(' ')[0] + '.png') %>" alt="Pic of <%=team[i].name.split(' ')[0]%>">
             </figure>
           </div><!-- /.ld-tm-img -->
-          <div class="ld-tm-info">
-            <h3 class="ld-tm-name size-sm font-weight-semibold mb-3"><%= team[i].name %></h3>
-            <h6 class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"><%= team[i].position %></h6>
-            <p class="opacity-06"></p>
+          <div class="">
+            <h3 class="size-sm font-weight-semibold mb-3"><%= team[i].name %></h3>
+            <h6 class="text-uppercase font-weight-bold mb-3"><%= team[i].position %></h6>
           </div><!-- /.ld-tm-info -->
         </div><!-- /.ld-tm -->
 

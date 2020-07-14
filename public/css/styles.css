@@ -1568,7 +1568,7 @@ button:focus {
 .card {
   font-weight: bold;
   margin: 5vh auto;
-  width: 400px;
+  max-width: 400px;
   min-height: 300px;
   padding: 30px 10px;
   border-radius: 16px;

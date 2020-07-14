@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <%- include("partials/header", {pageTitle: "Download | JusticeCoin"}) -%>
+</head>
+
+<body style="background-color: #eee">
+  <!-- START NAVBAR -->
+  <%- include("partials/navbar", {activePage: 'download'}) -%>
+  <!-- END NAVBAR -->
+  <!-- START PAGE TITLE -->
+  <section class="container-fluid" style="background-color: #000050; height: 40vh">
+    <div class="col-lg-12" style="padding-top:20vh">
+      <h1 class="text-center" style="color: #fff">JusticeCoin For Mac</h1>
+    </div>
+  </section>
+  <!-- END PAGE TITLE -->
+  <!-- START MAIN -->
+  <section class="container">
+    <div class="container">
+      <div class="mt-5 row justify-content-center">
+        <h3>Mine Right From Your Desktop</h3>
+      </div>
+      <div class="mt-5 row justify-content-center">
+        <form class="" action="/desktopBuilds/JusticeCoin.dmg" method="get">
+
+        <button type="download" class="btn btn-large btn-outline-dark font-weight-bold mb-3 fa fa-download" name="button">
+          <strong style="font-size: 20px">Download Mac</strong>
+        </button>
+
+      </form>
+      </div>
+    </div>
+  </section>
+  <!-- END MAIN -->
+  <!-- START FOOTER -->
+  <%- include("partials/footer") -%>
+  <!-- END FOOTER -->
+</body>
+<!-- BASE JAVASCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--CUSTOM JS-->
+<script src="/js/navbarScroll.js"></script>
+<script>
+  if (window.navigator.platform.includes("Win"));
+</script>
+
+</html>
