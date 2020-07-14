@@ -399,6 +399,10 @@ button:focus {
   color: #000;
 }
 
+.custom-nav.stickyadd .navbar-toggler.stickyadd {
+  color: #000;
+}
+
 .navbar-toggle {
   font-size: 24px;
   margin-top: 5px;
