@@ -48,12 +48,16 @@ const team = [{
     position: "Director of IT"
   },
   {
+    name: "Rohit Rajan",
+    position: "Director of Systems Architecture"
+  },
+  {
     name: "Ethan Davenport",
     position: "Director of Finance"
   },
   {
-    name: "Rohit Rajan",
-    position: "Director of Systems Architecture"
+    name: "Yemisi Badmus",
+    position: "Director of Marketing"
   },
   {
     name: "Shrey Joshi",
