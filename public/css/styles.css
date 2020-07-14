@@ -1666,9 +1666,3 @@ button:focus {
   font-size: 21px;
   font-family: PT Serif;
 }
-
-@media only screen and (max-width: 768px) {
-  .makesmall {
-    font-size: 20px;
-  }
-}
