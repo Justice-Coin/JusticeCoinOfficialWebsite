@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="/js/getOS.js">
+    </script>
     <script>
-      if (window.navigator.platform.includes("Win")) {
-        window.location.pathname = "/download/windows";
-      } else if (windows.navigator.platform.includes("Mac")) {
-          window.location.pathname = "/download/windows";
-      } else {
-        window.location.pathname = "/download/notSupported"
-      }
+    systemOS = getOS();
+    if (systemOS == "Windows") {
+      location.href = "/download/windows"
+    } else {
+      location.href = "/download/mac"
+    }
     </script>
     <meta charset="utf-8">
     <title>Redirecting...</title>
   </head>
   <body>
     <h1>Redirecting...</h1>
+    <h3>If this page does not redirect you within 5 seconds please click select your OS:</h3>
+    <ul>
+      <li> <a href="/download/windows">Windows</a> </li>
+      <li> <a href="/download/mac">Macintosh</a></li>
+    </ul>
   </body>
 </html>
