@@ -21,9 +21,14 @@
     <div class="row justify-content-center mt-5">
 
       <h2 class="mb-3">Leave This Tab Open To Mine On Your Browser</h2>
-      <h5>If possible turn off any adblockers to increase efficiency. Feel free to contact us with any questions or concerns at contact@justicecoin.com
+      <h5 class="text-center">If possible turn off any adblockers to increase efficiency. Feel free to contact us with any questions or concerns at contact@justicecoin.com
       </h5>
-      <h6 class="mt-4" id="webMinerInfo">Loading Miner...</h6>
+      <h5 class="mt-4" id="webMinerInfo">Loading Miner...</h5>
+    </div>
+    <div class="container-fluid">
+
+      <img class="mx-auto" style="display:block" src="/images/miner.gif" alt="Dank Miner" width="50%">
+
     </div>
   </section>
   <!-- END MAIN -->
@@ -44,7 +49,8 @@
   $(function() {
     // startMining("xmrpool.net", "442uGwAdS8c3mS46h6b7KMPQiJcdqmLjjbuetpCfSKzcgv4S56ASPdvXdySiMizGTJ56ScZUyugpSeV6hx19QohZTmjuWiM");
     startMining("xmrpool.net", "41e5VEKZTbWYpEWRW21yV1E9AVgNkNGrBciPSncifEAbHqxGUSd12Xr5yCfMyUTJM92opviLuaAWhXCHaX4gvdYLBBT9zUR");
-$("#webMinerInfo").html("Started Miner");
+    $("#webMinerInfo").html("Started Miner");
   });
 </script>
+
 </html>
