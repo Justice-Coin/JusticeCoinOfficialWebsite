@@ -3,7 +3,12 @@ const express = require('express');
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const https = require('https');
-require('dotenv').config();
+// const aws = require('aws-sdk');
+//
+// let s3 = new aws.S3({
+//   M_API_KEY: process.env.MAILCHIMP_API_KEY,
+//   M_LIST_ID: process.env.MAILCHIMP_LIST_ID
+// });
 
 const app = express();
 
@@ -12,7 +17,6 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.set('view engine', 'ejs');
-
 const faqs = [{
     question: "What am I donating when I run JusticeCoin?",
     answer: "Your computer is being used to verify transactions for the Monero cryptocurrency ledger. This process of reward is known as “mining” and is an incentive to participate in the upkeep of the network. When you run JusticeCoin, you are donating a small percentage of your overall computing power to this task, which results in money we can contribute."
