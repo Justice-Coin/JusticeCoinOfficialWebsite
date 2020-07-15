@@ -1592,20 +1592,6 @@ button:focus {
   display: block;
 }
 
-.card-link-team:hover {
-  display: block;
-  color: #000;
-}
-
-.card-link-team h3 {
-  /* MOVE CSS HERE AND ADD HOVER LINK */
-}
-
-.card-link-team h5 {
-
-    /* MOVE CSS HERE AND ADD HOVER LINK */
-}
-
 .card-body {
   margin: 0px;
 }
