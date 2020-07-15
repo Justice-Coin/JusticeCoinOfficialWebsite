@@ -33,14 +33,32 @@
           <div class="">
             <h3 class="size-sm font-weight-semibold mb-3"><%= team[i].name %></h3>
             <h6 class="text-uppercase font-weight-bold mb-3"><%= team[i].position %></h6>
+            <div class="container" style="width: 75%">
+              <div class="row mb-3">
+                <div class="col-lg-4 mb-3" style="m">
+                  <div class="bg-primary mx-auto" style="width: 50px; height: 50px; border-radius: 50%">
+                    <a class="fa fa-lg fa-instagram text-white" href="<%= team[i].instagram %>" style="margin-top: 33%"></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-3" style="m">
+                  <div class="bg-primary mx-auto" style="width: 50px; height: 50px; border-radius: 50%">
+                    <a class="fa fa-lg fa-linkedin text-white" href="<%= team[i].linkedin %>" style="margin-top: 33%"></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-3" style="m">
+                  <div class="bg-primary mx-auto" style="width: 50px; height: 50px; border-radius: 50%">
+                    <a class="fa fa-lg fa-envelope text-white" href="<%= team[i].email %>" style="margin-top: 33%"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div><!-- /.ld-tm-info -->
         </div><!-- /.ld-tm -->
 
       </div><!-- /.lqd-column col-md-3 col-sm-6 -->
       <% } %>
     </div><!-- /.row -->
-
-    </div><!-- /.container -->
   </section>
   <!-- <section class="jumbotron">
     <% for (let i = 0; i<team.length; i ++) { %>
