@@ -40,10 +40,6 @@ const team = [{
     position: "Co-Founder & Director of Operations"
   },
   {
-    name: "Tim Murphree",
-    position: "Technical Advisor"
-  },
-  {
     name: "Nila Jeyapriya",
     position: "Director of IT"
   },
@@ -72,6 +68,10 @@ const team = [{
     position: "Development Lead"
   },
   {
+    name: "Cynthia Diep",
+    position: "Social Media Lead"
+  },
+  {
     name: "Ishaan Javali",
     position: "Developer"
   },
@@ -80,16 +80,16 @@ const team = [{
     position: "Developer"
   },
   {
-    name: "Cynthia Diep",
-    position: "Social Media Lead"
+    name: "Sophia Khan",
+    position: "Product Designer"
   },
   {
     name: "Navi Lanka",
     position: "Marketing Producer"
   },
   {
-    name: "Sophia Khan",
-    position: "Product Designer"
+    name: "Tim Murphree",
+    position: "Technical Advisor"
   },
 ];
 
