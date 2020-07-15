@@ -13,4 +13,4 @@ Todo:
 - Number of downloads counter with DB
 
 Visit the site here:
-https://www.justicecoin.herokuapp.com
+[justicecoin.herokuapp.com](justicecoin.herokuapp.com)
