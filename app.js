@@ -53,6 +53,10 @@ app.get('/download/notSupported', function(req, res) {
   res.render('notSupported');
 });
 
+app.get('/downloadComplete', function(req, res){
+  res.render('thanksForDownloading');
+});
+
 app.get('/blog', function(req, res) {
   res.render('blog');
 });
