@@ -1645,6 +1645,7 @@ button:focus {
 .faq-question {
   color: #000050;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .faq-question:hover {

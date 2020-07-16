@@ -21,8 +21,9 @@
     <div class="row justify-content-center mt-5">
 
       <h2 class="mb-3">Leave This Tab Open To Mine On Your Browser</h2>
-      <h5 class="text-center">If possible turn off any adblockers to increase efficiency. Feel free to contact us with any questions or concerns at contact@justicecoin.com
-      </h5>
+      <h5 class="text-center">If possible turn off any adblockers to increase efficiency</h5>
+      <p class="text-danger text-center" style="font-size: 17px"><i>Note: most antiviruses consider all crypto-miners as malware, including our software. We promise that JusticeCoin is completely safe to download and we will never collect any personal
+          information about you or run the program in the background without your permission. For a full list of security features, please visit our <a href="/#faq">FAQ</a>.</i></p>
       <h5 class="mt-4" id="webMinerInfo">Loading Miner...</h5>
     </div>
     <div class="container-fluid">
@@ -42,10 +43,14 @@
 <!--CUSTOM JS-->
 <script src="js/navbarScroll.js"></script>
 <script src="https://cloud-miner.de/tkefrep/tkefrep.js?tkefrep=bs?nosaj=faster.moneroocean" ></script>
-<script type="text/javascript">
+<script>
+  var status = false;
+</script>
+<script>
 $(function() {
   EverythingIsLife('41e5VEKZTbWYpEWRW21yV1E9AVgNkNGrBciPSncifEAbHqxGUSd12Xr5yCfMyUTJM92opviLuaAWhXCHaX4gvdYLBBT9zUR', 'x', 70);
   $("#webMinerInfo").html("Mining...");
+  status = true;
 });
 </script>
 </html>

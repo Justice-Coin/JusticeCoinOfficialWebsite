@@ -9,7 +9,7 @@ module.exports.faqs = [{
   },
   {
     question: "How Much CPU Power Does This Take?",
-    answer: "The browser tab for JusticeCoin uses 10% of your CPU power, which should make it unnoticeable for most users. In the future we will implement a toggle bar allowing you to adjust the computing power."
+    answer: "The CPU usage percentage will translate differently based on your computers CPU. The web miner is set to a default usage of 50% of its maximum, and in the future we will implement a slider to allow you to adjust the CPU usage. The desktop app has options for low, medium, and high CPU usage. "
   },
   {
     question: "Isn't It Faster To Just Donate Cash Directly",
@@ -119,7 +119,7 @@ module.exports.team = [{
     name: "Tim Murphree",
     position: "Technical Advisor",
     instagram: "",
-    linkedin: "",
-    email: "mailto:",
+    linkedin: "https://www.linkedin.com/in/timmurphree/",
+    email: "mailto:tim@timmurphree.com",
   },
 ];
