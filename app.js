@@ -34,7 +34,7 @@ app.get('/about', function(req, res) {
 });
 
 app.get('/web-miner', function(req, res) {
-  res.render('web-miner');
+  res.render('webMiner');
 });
 
 app.get('/download', function(req, res) {
