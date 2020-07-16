@@ -56,15 +56,15 @@ module.exports.team = [{
     name: "Yemisi Badmus",
     position: "Director of Marketing",
     instagram: "https://www.instagram.com/yemisi_o_badmus/",
-    linkedin: "",
-    email: "mailto:",
+    linkedin: "https://www.linkedin.com/in/yemisi-badmus-687b0b146/",
+    email: "mailto:yemisi.badmus1@gmail.com",
   },
   {
     name: "Shrey Joshi",
     position: "Web Development Lead",
     instagram: "https://www.instagram.com/shreyj1729/",
     linkedin: "https://www.linkedin.com/in/shrey-joshi-005623194/",
-    email: "mailto:",
+    email: "mailto:shreyjoshi2004@gmail.com",
   },
   {
     name: "Brian Vo",
