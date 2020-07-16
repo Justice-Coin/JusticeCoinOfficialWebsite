@@ -1615,11 +1615,11 @@ button:focus {
 }
 
 .section_beginner {
-  background-color: #3130A9;
+  background-color: #010079;
 }
 
 .section_intermediate {
-  background-color: #500090;
+  background-color: #500050;
 }
 
 .section_advanced {
@@ -1627,7 +1627,7 @@ button:focus {
 }
 
 .section_try {
-  background-color: #500077;
+  background-color: #500050;
 }
 .section_contact {
   background-color: #eee;
@@ -1657,3 +1657,6 @@ button:focus {
 }
 
 /* ABOUT PAGE SOCIAL ICONS: */
+.bg-icon {
+  background-color: #000080;
+}
