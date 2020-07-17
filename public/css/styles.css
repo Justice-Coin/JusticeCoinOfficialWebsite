@@ -228,8 +228,8 @@ button:focus {
   font-size: 20px;
 }
 
-.bg-overlay-gredient {
-  background: linear-gradient(32deg, rgba(18, 166, 181, 0.8) 0%, rgba(16, 12, 242, 0.7) 100%);
+.bg-overlay-gradient {
+  background: linear-gradient(90deg, rgba(0, 30, 100, 0.7) 0%, rgba(0, 100, 100, 0.7) 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -240,7 +240,7 @@ button:focus {
 }
 
 .bg-overlay {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   right: 0;
@@ -1615,19 +1615,19 @@ button:focus {
 }
 
 .section_beginner {
-  background-color: #010079;
+  background-color: #000050;
 }
 
 .section_intermediate {
-  background-color: #500050;
+  background-color: #5689BC;
 }
 
 .section_advanced {
-  background-color: #010079;
+  background-color: #5050A0;
 }
 
 .section_try {
-  background-color: #500050;
+  background-color: #50506B;
 }
 .section_contact {
   background-color: #eee;
