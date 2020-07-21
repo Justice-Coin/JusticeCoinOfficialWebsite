@@ -57,7 +57,7 @@ app.get('/downloadComplete', function(req, res){
   res.render('thanksForDownloading');
 });
 
-app.get('/rpnpo', function(req, res) {
+app.get(['/rpnpo', '/rpnpo.pdf'], function(req, res) {
   res.sendFile(__dirname + "/RPNPO.pdf");
 });
 

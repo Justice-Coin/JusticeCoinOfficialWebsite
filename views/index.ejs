@@ -228,53 +228,6 @@
     </div>
   </section>
   <!-- END SECTION TRY -->
-
-  <!-- START SECTION FAQ -->
-  <!-- START SEARCH BAR -->
-  <section id="faqPlace" class="mt-5">
-
-    <section class="container-fluid" style="background-color: #eee; margin-top: 5vh">
-      <div class="text-center">
-        <h1>Frequently Asked Questions</h1>
-      </div>
-      <!-- <div class="container" style="margin-top: 5vh">
-        <form class="text-center" action="/faq" method="POST">
-          <input type="text" autocomplete="off" name="faq-search" class="form-control form-control-lg" placeholder="Search For Questions">
-        </form>
-      </div> -->
-    </section>
-    <!-- END SEARCH BAR -->
-    <!-- START QUESTIONS -->
-
-    <section class="container" style="margin-top: 5vh">
-      <div class="row">
-
-
-        <div class="col-lg-12">
-
-          <% for (let i = 0; i<faqs.length; i++) {%>
-          <div class="panel-group">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title mb-3">
-                  <a data-toggle="collapse" class="faq-question" href="<%= '#collapse1'.concat(i) %>"> • <%= faqs[i].question %></a>
-                </h3>
-              </div>
-              <div id="<%= 'collapse1'.concat(i) %>" class="panel-collapse collapse">
-                <div class="panel-body faq-answer mb-3"><%= faqs[i].answer %></div>
-              </div>
-            </div>
-          </div>
-          <% } %>
-
-        </div </div>
-    </section>
-    <!-- END QUESTIONS -->
-  </section>
-
-  <!-- END SECTION FAQ -->
-  <br><br>
-  <hr style="width: 90vw">
   <!-- START SECTION CONTACT -->
   <section class="section_contact" id="contactPlace">
 <div class="container">
