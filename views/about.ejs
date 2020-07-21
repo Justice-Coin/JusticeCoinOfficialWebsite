@@ -13,12 +13,11 @@
   <!-- START PAGE TITLE -->
   <section class="container-fluid" style="background-color: #000050; height: 40vh">
     <div class="col-lg-12" style="padding-top:20vh">
-      <h1 class="text-center" style="color: #fff">Our Team</h1>
+      <h1 class="text-center" style="color: #fff; font-size: 50px">Our Team</h1>
     </div>
   </section>
   <!-- END PAGE TITLE -->
   <!-- START MEMBER CARDS -->
-  <!-- MAKE EFFICIENT WITH EJS TEMPLATES -->
   <section class="pt-200 pb-200 align-items-center">
     <div class="row item-margin justify-content-center">
       <% for (let i = 0; i<team.length; i ++) { %>
@@ -60,24 +59,6 @@
       <% } %>
     </div><!-- /.row -->
   </section>
-  <!-- <section class="jumbotron">
-    <% for (let i = 0; i<team.length; i ++) { %>
-    <div class="row text-center">
-      <div class="col">
-        <div class="card team">
-          <a href="">
-          <div class="card-body card-link-team">
-            <img src="<%= team[i].imageSource %>" alt="">
-            <h3 class="text-danger"></h3>
-            <h5 class="text-dark"></h5>
-          </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <% } %>
-<h1 class="text-center">WILL ADD OTHER PPL LATER ONCE I MAKE THIS CODE RESPONSIVE</h1>
-  </section> -->
   <!-- END MEMBER CARDS -->
   <!-- START FOOTER -->
   <%- include("partials/footer") -%>

@@ -229,7 +229,7 @@ button:focus {
 }
 
 .bg-overlay-gradient {
-  background: linear-gradient(135deg, rgba(0, 0, 80, .5) 70%, rgba(0, 0, 128, 1) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 50, 1) 0%, rgba(0, 0, 128, 1) 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -1571,7 +1571,7 @@ button:focus {
   max-width: 300px;
   min-height: 300px;
   padding: 30px 10px;
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: 0 15px 31px 0 rgba(0, 7, 92, 0.4);
 }
 
@@ -1598,6 +1598,7 @@ button:focus {
 
 .card-text {
   font-size: 23px;
+  font-family: Montserrat;
 }
 
 .card.team {
@@ -1615,19 +1616,19 @@ button:focus {
 }
 
 .section_beginner {
-  background-color: #000050;
+  background-color: #F9F9FF;
 }
 
 .section_intermediate {
-  background-color: #5689BC;
+  background-color: #000060;
 }
 
 .section_advanced {
-  background-color: #5050A0;
+  background-color: #F9F9FF;
 }
 
 .section_try {
-  background-color: #50506B;
+  background-color: #202020;
 }
 .section_contact {
   background-color: #eee;

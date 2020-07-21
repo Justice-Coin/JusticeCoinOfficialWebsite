@@ -1,19 +1,19 @@
 //jshint esversion:6
 module.exports.faqs = [{
     question: "What am I donating when I run JusticeCoin?",
-    answer: "Your computer is being used to verify transactions for the Monero cryptocurrency ledger. This process of reward is known as “mining” and is an incentive to participate in the upkeep of the network. When you run JusticeCoin, you are donating a small percentage of your overall computing power to this task, which results in money we can contribute."
+    answer: "Your computer doesn’t use all of its processing power all the time. JusticeCoin uses some of your idle power to “mine” Monero. Mining stores data from verifying financial transactions by solving complicated math problems, and your computer receives cryptocurrency for the service. This cryptocurrency is exchanged for real dollars, and that’s what we donate."
   },
   {
     question: "Why are you mining Monero?",
-    answer: "Monero is an ASIC-resistant cryptocurrency, which means two things: computers designed for the singular purpose of mining cryptocurrency are unable to mine it amd consumer-level computers can mine it in a financially viable way. It also has a stable value relative to other high value cryptocurrencies. The open source code base for Monero mining software made this a tenable project for our team."
+    answer: "Monero has a relatively stable value and is an ASIC-resistant cryptocurrency. This means computers specifically designed for mining cryptocurrency are banned, preventing any one user from establishing a monopoly over the currency and allowing personal computers to mine cryptocurrency efficiently. The open source code base for Monero mining software made this a tenable project for our team."
   },
   {
-    question: "How Much CPU Power Does This Take?",
-    answer: "The CPU usage percentage will translate differently based on your computers CPU. The web miner is set to a default usage of 50% of its maximum, and in the future we will implement a slider to allow you to adjust the CPU usage. The desktop app has options for low, medium, and high CPU usage. "
+    question: "How much CPU power does this take?",
+    answer: "The processing power used with the web miner is set to a default 50% of the maximum possible amount, so the final value is personalized for your computer. The desktop app gives you even more control, with settings for low, medium, and high power."
   },
   {
-    question: "Isn't It Faster To Just Donate Cash Directly",
-    answer: "Directly routing money to nonprofits is, of course, the most efficient means of donation. We encourage everyone who has the means to donate directly, in addition to running JusticeCoin. However, this project is also greater than the sum of its parts, or the sum of its hashrate; This is as much about catapulting a radical platform for decentralized financing of non profits as opening the new frontier of non-profit technology. This project seeks to engage people in a dialog about the postive impacts cryptocurrency can have and its implementations for social good."
+    question: "Isn't it faster to just donate cash directly?",
+    answer: "JusticeCoin is a new platform for decentralized fundraising, so anyone can make a difference from anywhere. We strive to inform people about the positive impacts cryptocurrency can have for social good."
   },
 ];
 
