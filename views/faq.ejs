@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <%- include("partials/header", {pageTitle: "FAQ | JusticeCoin"}) -%>
+</head>
+
+<body style="background-color: #eee">
+  <!-- START NAVBAR -->
+
+  <%- include("partials/navbar", {activePage: 'about'}) -%>
+  <!-- END NAVBAR -->
+  <!-- START PAGE TITLE -->
+  <section class="container-fluid" style="background-color: #000050; height: 40vh">
+    <div class="col-lg-12" style="padding-top:20vh">
+      <h1 class="text-center" style="color: #fff; font-size: 50px">FAQs</h1>
+    </div>
+  </section>
+  <!-- END PAGE TITLE -->
+  <section id="faqPlace" class="mt-5">
+
+    <section class="container-fluid" style="background-color: #eee; margin-top: 5vh">
+      <div class="text-center">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <!-- <div class="container" style="margin-top: 5vh">
+        <form class="text-center" action="/faq" method="POST">
+          <input type="text" autocomplete="off" name="faq-search" class="form-control form-control-lg" placeholder="Search For Questions">
+        </form>
+      </div> -->
+    </section>
+    <!-- START QUESTIONS -->
+
+    <section class="container" style="margin-top: 5vh">
+      <div class="row">
+
+
+        <div class="col-lg-12">
+
+          <% for (let i = 0; i<faqs.length; i++) {%>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title mb-3">
+                  <a data-toggle="collapse" class="faq-question" href="<%= '#collapse'.concat(i) %>"> • <%= faqs[i].question %></a>
+                </h3>
+              </div>
+              <div id="<%= 'collapse'.concat(i) %>" class="panel-collapse collapse">
+                <div class="panel-body faq-answer mb-3"><%= faqs[i].answer %></div>
+              </div>
+            </div>
+          </div>
+          <% } %>
+
+        </div </div>
+    </section>
+    <!-- END QUESTIONS -->
+  </section>
+  <!-- START FOOTER -->
+  <%- include("partials/footer") -%>
+  <!-- END FOOTER -->
+</body>
+<!-- BASE JAVASCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--CUSTOM JS-->
+<script src="js/navbarScroll.js"></script>
+
+</html>

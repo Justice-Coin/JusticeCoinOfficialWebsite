@@ -24,7 +24,7 @@ app.get(['/', '/home'], function(req, res) {
 });
 
 app.get('/faq', function(req, res) {
-  res.redirect('/#faq');
+  res.render('faq', {faqs: faqs});
 });
 
 app.get('/about', function(req, res) {
