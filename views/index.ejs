@@ -272,11 +272,12 @@
 var menustatus = 0;
 $("#menu-button").on("click", function() {
   var classes = $("#navbarCollapse").attr('class').split(" ");
-  if (classes.includes("show")) {
-    $(".sticky").removeClass("stickyadd");
+  if (!classes.includes("show")) {
+      $(".sticky").addClass("stickyadd");
   } else {
-    $(".sticky").addClass("stickyadd");
-  }
+    if ($(window).scrollTop() < 1) {
+      $(".sticky").removeClass("stickyadd");
+  }}
 });
 </script>
 

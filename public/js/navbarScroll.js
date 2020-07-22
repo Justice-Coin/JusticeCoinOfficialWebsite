@@ -7,4 +7,6 @@ $(function() {
       $(".sticky").removeClass("stickyadd");
     }
   });
+
+
 });
