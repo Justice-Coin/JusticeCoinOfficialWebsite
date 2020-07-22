@@ -8,5 +8,14 @@ $(function() {
     }
   });
 
+  $("#menu-button").on("click", function() {
+    var classes = $("#navbarCollapse").attr('class').split(" ");
+    if (!classes.includes("show")) {
+        $(".sticky").addClass("stickyadd");
+    } else {
+      if ($(window).scrollTop() < 1) {
+        $(".sticky").removeClass("stickyadd");
+    }}
+  });
 
 });
