@@ -116,6 +116,20 @@ module.exports.team = [{
     email: "mailto:",
   },
   {
+    name: "Hardik Singh",
+    position: "Outreach",
+    instagram: "https://www.instagram.com/hardsingh17/",
+    linkedin: "https://www.linkedin.com/in/hardik-singh-9043771aa/",
+    email: "mailto:hardik.hs.singh@gmail.com",
+  },
+  {
+    name: "Dhanush Jain",
+    position: "Outreach",
+    instagram: "",
+    linkedin: "",
+    email: "mailto:",
+  },
+  {
     name: "Tim Murphree",
     position: "Technical Advisor",
     instagram: "",
