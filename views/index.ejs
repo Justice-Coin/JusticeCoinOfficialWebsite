@@ -32,7 +32,7 @@
 
       </div>
       <button class="navbar-toggler sticky" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <strong class="mdi mdi-menu" style="font-size: 20px">Menu</strong>
+        <strong class="mdi mdi-menu"id="menu-button" style="font-size: 20px">Menu</strong>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
@@ -267,7 +267,17 @@
 <!--CUSTOM JS-->
 <script src="js/navbarScroll.js"></script>
 <script src="js/homeTyper.js"></script>
-<script src="js/hashAnchors.js">
+<script src="js/hashAnchors.js"></script>
+<script>
+var menustatus = 0;
+$("#menu-button").on("click", function() {
+  var classes = $("#navbarCollapse").attr('class').split(" ");
+  if (classes.includes("show")) {
+    $(".sticky").removeClass("stickyadd");
+  } else {
+    $(".sticky").addClass("stickyadd");
+  }
+});
 </script>
 
 </html>
