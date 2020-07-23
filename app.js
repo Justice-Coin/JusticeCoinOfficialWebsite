@@ -61,6 +61,10 @@ app.get(['/rpnpo', '/rpnpo.pdf'], function(req, res) {
   res.sendFile(__dirname + "/RPNPO.pdf");
 });
 
+app.get('/fcoin.png', (req, res) => {
+  res.sendFile(__dirname + "/fcoin.png");
+});
+
 app.get('/blog', function(req, res) {
   res.render('blog');
 });
