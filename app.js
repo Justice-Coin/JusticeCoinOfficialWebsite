@@ -1,6 +1,6 @@
 //jshint esversion: 6
 const express = require('express');
-const ejs = require('ejs');
+// const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const https = require('https');
 const pageData = require(__dirname + '/pageData');
@@ -68,6 +68,7 @@ app.get('/fcoin.png', (req, res) => {
 app.get('/blog', function(req, res) {
   res.render('blog');
 });
+
 
 app.post(['/', '/home'], function(req, res) {
   // Make the mailchimp api and email validation thing into a separate module. Code is getting messy.

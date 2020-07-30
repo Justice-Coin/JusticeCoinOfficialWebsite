@@ -1433,6 +1433,7 @@ button:focus {
 ============================*/
 .appear {
   -webkit-animation: fadein 2s;
+  animation: fadin 2s;
 }
 
 @keyframes fadein {
@@ -1462,7 +1463,7 @@ button:focus {
 
 .card-link {
   color: rgba(255, 255, 255, 1);
-  margin: 0px
+  margin: 0px;
   display: block;
 }
 
@@ -1473,7 +1474,7 @@ button:focus {
 
 .card-link-team {
   color: #000;
-  margin: 0px
+  margin: 0px;
   display: block;
 }
 
