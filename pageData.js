@@ -33,7 +33,7 @@ module.exports.team = [{
   },
   {
     name: "Nila Jeyapriya",
-    position: "Director of IT",
+    position: "Director of Development",
     instagram: "https://www.instagram.com/nila.jeyapriya/",
     linkedin: "https://www.linkedin.com/in/nilajeyapriya/",
     email: "mailto:nilajeyapriya@gmail.com",
