@@ -6,6 +6,7 @@ import Typer from "./Typer";
 import ChooseCardSection from "./ChooseCardSection";
 import InfoSections from "./InfoSections";
 import Contact from "./Contact";
+import Footer from "../Footer/Footer.jsx";
 
 function HomePage() {
     document.body.style.backgroundColor = "#EEEEEE";
@@ -18,6 +19,7 @@ function HomePage() {
             <ChooseCardSection />
             <InfoSections />
             <Contact />
+            <Footer />
         </>
     )
 }

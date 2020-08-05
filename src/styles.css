@@ -343,7 +343,7 @@ button:focus {
 
 .custom-nav.stickyadd {
   background-color: #fff;
-  padding: 8px 0;
+  padding: 5px 0;
   box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -356,6 +356,10 @@ button:focus {
   margin: 0 7px;
   font-weight: 600;
   transition: all 0.4s;
+}
+
+.custom-nav .navbar-nav li a:hover {
+  color: #fff;
 }
 
 .custom-nav .navbar-nav li.active a:before,
@@ -429,6 +433,8 @@ button:focus {
 .custom-nav .navbar-brand.logo img {
   height: 28px;
 }
+
+
 
 /*==========================
         4.HOME
@@ -964,13 +970,12 @@ button:focus {
 }
 
 .card-holder {
-  padding-top: 10vh;
-  padding-bottom: 10vh
+  margin-top: 10vh;
+  margin-bottom: 10vh
 }
 
 .card {
   font-weight: bold;
-  margin: 5vh auto;
   max-width: 300px;
   min-height: 300px;
   padding: 30px 10px;
@@ -982,11 +987,6 @@ button:focus {
   color: rgba(255, 255, 255, 1);
   margin: 0px;
   display: block;
-}
-
-.card-link:hover {
-  display: block;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .card-link-team {
@@ -1009,8 +1009,13 @@ button:focus {
   padding: 0px;
   max-width: 350px;
   min-height: 350px;
+  margin: 10px;
   border-radius: 8px;
   box-shadow: 0 15px 31px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-button:hover > div > div > p{
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .section {

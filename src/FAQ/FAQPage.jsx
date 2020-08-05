@@ -3,35 +3,51 @@ import PageTitle from "../PageTitle";
 import faqData from "./faqData";
 import Nav from "../Nav.jsx";
 import SetTitle from "../setTitle.jsx";
-
+import { Accordion, Card } from "react-bootstrap";
+import Footer from "../Footer/Footer";
 
 function FAQPage() {
+    // MAKE SEARCH BOX WORK (CHECK IF MATCH IN Q/A)
+
     document.body.style.backgroundColor = "#EEEEEE";
-    // MAKE COLLAPSIBLE PANELS WITH REACT-BOOTSTRAP
     return (<>
         <SetTitle title="FAQs | JusticeCoin | Decentralized Activism" />
         <Nav activePage="faq" />
-            <PageTitle title="FAQs" />
-            <section class="container-fluid" style={{marginTop: "5vh"}}>
+        <PageTitle title="FAQs" />
+        <section className="container-fluid mt-5">
 
-                <div class="text-center">
-                    <h1>Frequently Asked Questions</h1>
-                </div>
-                {faqData.map((data, idx) => {
-                    return <div key={idx} className="panel-group">
-                        <div className="panel panel-default">
-                            <div className="panel-heading">
-                                <h3 className="panel-title mb-3">
-                                    <a data-toggle="collapse" className="faq-question" href={'#collapse' + idx}> • {data.question}</a>
-                                </h3>
-                            </div>
-                            <div id={'collapse' + idx} className="panel-collapse collapse">
-                                <div className="panel-body faq-answer mb-3">{data.answer}</div>
-                            </div>
-                        </div>
+            <div className="text-center">
+                <h1>Frequently Asked Questions</h1>
+            </div>
+
+            <div class="container mt-5">
+                <form class="text-center" action="/faq" method="POST">
+                    <input type="text" autocomplete="off" name="faq-search" class="form-control form-control-lg" placeholder="Search For Questions" />
+                </form>
+            </div>
+
+            <section className="container mt-5">
+                <Accordion>
+                    <div>
+                        {faqData.map((data, idx) => {
+                            return (<div key={idx}>
+                                <div>
+                                    <Accordion.Toggle className="faq-question" as={Card.Header} variant="link" eventKey={idx + 1} style={{ cursor: "pointer" }}>
+                                        {data.question}
+                                    </Accordion.Toggle>
+                                </div>
+                                <Accordion.Collapse eventKey={idx + 1}>
+                                    <div className="panel-body faq-answer">
+                                        <div className="p-4">{data.answer}</div>
+                                    </div>
+                                </Accordion.Collapse>
+                            </div>);
+                        })}
                     </div>
-                })}
+                </Accordion>
             </section>
+        </section>
+        <Footer />
     </>)
 }
 

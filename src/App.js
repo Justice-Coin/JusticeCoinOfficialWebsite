@@ -6,12 +6,13 @@ import FAQPage from "./FAQ/FAQPage";
 import AboutPage from "./About/AboutPage";
 import WebMiner from "./WebMiner/WebMinerPage";
 import DownloadPage from "./Download/DownloadPage";
-import Footer from "./Footer/Footer";
 import PageNotFound from "./PageNotFound";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (<>
     <Router>
+    <ScrollToTop />
       <Switch>
         <Route path="/" exact component={withRouter(HomePage)} />
         <Route path="/faq" exact component={withRouter(FAQPage)} />
@@ -20,7 +21,6 @@ function App() {
         <Route path="/download" exact component={withRouter(DownloadPage)} />
         <Route path="/" component={withRouter(PageNotFound)} />
       </Switch>
-      <Footer />
     </Router>
   </>
   );

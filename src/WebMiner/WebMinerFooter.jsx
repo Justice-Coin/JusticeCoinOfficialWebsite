@@ -1,9 +1,9 @@
 import React from "react";
-import "./Footer.css";
-import { Link } from "react-router-dom";
+import "../Footer/Footer.css";
 import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
-function Footer() {
+
+function WebMinerFooter() {
     return (
         <footer className="site-footer">
             <div className="container">
@@ -17,8 +17,8 @@ function Footer() {
                     <div className="col-xs-6 col-md-3">
                         <h6>Miners</h6>
                         <ul className="footer-links">
-                            <li><Link to={"/webMiner"}>Web Miner</Link></li>
-                            <li><Link to={"/download"}>Desktop Miner</Link></li>
+                            <li><a href={"/webMiner"}>Web Miner</a></li>
+                            <li><a href={"/download"}>Desktop Miner</a></li>
                         </ul>
                     </div>
 
@@ -26,8 +26,8 @@ function Footer() {
                         <h6>Quick Links</h6>
                         <ul className="footer-links">
                             <li><a href={"/"}>Home</a></li>
-                            <li><Link to={"/faq"}>FAQ</Link></li>
-                            <li><Link to={"/about"}>About Us</Link></li>
+                            <li><a href={"/about"}>About Us</a></li>
+                            <li><a href={"#contact"}>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-8 col-sm-6 col-xs-12">
                         <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by JusticeCoin.</p>
-          <p>Built with ❤ by Shrey Joshi</p>
+          <p>Built with ❤</p>
                     </div>
 
                     <div className="col-md-4 col-sm-6 col-xs-12">
@@ -55,4 +55,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default WebMinerFooter;

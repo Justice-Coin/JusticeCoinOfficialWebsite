@@ -4,6 +4,7 @@ import Nav from "../Nav";
 import PageTitle from "../PageTitle";
 import teamData from "./teamData";
 import MemberCard from "./MemberCard";
+import Footer from "../Footer/Footer";
 
 function AboutPage() {
 
@@ -19,6 +20,7 @@ function AboutPage() {
             })}
             </div>
             </section>
+            <Footer />
     </>
     )
 }

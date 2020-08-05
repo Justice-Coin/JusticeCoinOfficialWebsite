@@ -7,7 +7,7 @@ function BigHeading() {
   // Make particles Config a seperate file
   const config = particlesConfig;
   return (
-    <section className="h-100vh" id="homePlace">
+    <section className="h-100vh" id="topOfHome">
       <div className="bg-overlay-gradient" style={{ zIndex: "-1", width: "100%", height: "100%" }}></div>
       <Particles params={config} style={{position: "absolute", marginTop: "0px", zIndex: 99}}
 />
@@ -26,7 +26,7 @@ function BigHeading() {
               Mining cryptocurrency to support organizations for social justice
           </h2>
             <br />
-           <Link to={"/web-miner"}>
+           <Link to={"/webMiner"}>
               <button style={{ zIndex: "100", position: "relative" }} className="mx-1 btn btn-large btn-outline-light">
                 <strong style={{ fontSize: "20px" }}>Start Mining Online</strong>
               </button>

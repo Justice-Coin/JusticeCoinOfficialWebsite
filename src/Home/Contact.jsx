@@ -5,7 +5,7 @@ function Contact() {
     return (<>
     
   {/* <!-- START SECTION CONTACT --> */}
-  <section className="section_contact" id="contactPlace">
+  <section className="section_contact" id="contact">
     <div className="container">
 
       {/* <!--Section heading--> */}
