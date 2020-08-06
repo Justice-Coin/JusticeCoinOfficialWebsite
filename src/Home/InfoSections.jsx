@@ -16,7 +16,7 @@ function InfoSections() {
 
                     </div>
                     <div className="col-lg-6 col-sm-12 text-center">
-                        <img src={require("../images/img-intermediate.svg")} style={{ maxWidth: "400px", marginTop: "15vh", marginBottom: "10vh" }} />
+                        <img src={require("../images/home-gift.svg")} alt="" style={{ maxWidth: "400px", marginTop: "15vh", marginBottom: "10vh" }} />
                     </div>
 
                 </div>
@@ -29,7 +29,7 @@ function InfoSections() {
                 <div className="row">
 
                     <div className="order-last order-lg-first col-lg-6 col-sm-12 text-center mb-3">
-                        <img src={require("../images/img-beginner.svg")} style={{ maxWidth: "400px", marginTop: "15vh", marginBottom: "10vh" }} />
+                        <img src={require("../images/home-check.svg")} alt="" style={{ maxWidth: "400px", marginTop: "15vh", marginBottom: "10vh" }} />
                     </div>
                     <div className="order-sm-first col-lg-6 col-sm-12">
                         <h2 className="font-weight-bold " style={{ color: "#E0B000" }}>Crypto isn’t real money, but it has real-world exchange value.</h2>
@@ -55,7 +55,7 @@ function InfoSections() {
 
 
                     <div className="col-lg-6 col-sm-12 text-center mb-5">
-                        <img src={require("../images/teamspirit.svg")} style={{ maxWidth: "400px" }} />
+                        <img src={require("../images/home-team.svg")} alt="" style={{ maxWidth: "400px" }} />
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ function InfoSections() {
                 <div className="row">
 
                     <div className="order-last order-lg-first col-lg-6 col-sm-12 text-center mb-5">
-                        <img src={require("../images/img-try.svg")} style={{ maxWidth: "400px" }} />
+                        <img src={require("../images/home-download.svg")} alt="" style={{ maxWidth: "400px" }} />
                     </div>
                     <div className="col-lg-6 col-sm-12">
                         <h2 className="font-weight-bold " style={{ color: "#E0B000" }}>Download Our Miner</h2>

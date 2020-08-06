@@ -19,6 +19,8 @@ function App() {
         <Route path="/about" exact component={withRouter(AboutPage)} />
         <Route path="/webminer" exact component={withRouter(WebMiner)} />
         <Route path="/download" exact component={withRouter(DownloadPage)} />
+        <Route path="/download/mac" exact render={withRouter((props) => (<DownloadPage {...props} OS="Mac OS"/>))} />
+        <Route path="/download/windows" exact render={withRouter((props) => (<DownloadPage {...props} OS="Windows"/>))} />
         <Route path="/" component={withRouter(PageNotFound)} />
       </Switch>
     </Router>

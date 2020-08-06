@@ -3,8 +3,9 @@ import DownloadWindowsPage from "./DownloadWindowsPage";
 import DownloadMacPage from "./DownloadMacPage";
 import OSNotSupported from "./OSNotSupported";
 import Footer from "../Footer/Footer";
+import Nav from "../Nav";
 
-function DownloadPage() {
+function DownloadPage(props) {
 
     function getOS() {
         var userAgent = window.navigator.userAgent,
@@ -24,14 +25,17 @@ function DownloadPage() {
             os = 'Android';
         } else if (!os && /Linux/.test(platform)) {
             os = 'Linux';
+        } else {
+            os = 'Other';
         }
 
         return os;
     }
 
-    const systemOS = getOS();
+    const systemOS = props.OS || getOS();
 
     return (<>
+    <Nav activePage="download"/>
         {systemOS === "Windows" ? <DownloadWindowsPage /> :
         systemOS === "Mac OS" ? <DownloadMacPage /> : 
         <OSNotSupported />}

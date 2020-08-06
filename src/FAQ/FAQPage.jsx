@@ -20,9 +20,9 @@ function FAQPage() {
                 <h1>Frequently Asked Questions</h1>
             </div>
 
-            <div class="container mt-5">
-                <form class="text-center" action="/faq" method="POST">
-                    <input type="text" autocomplete="off" name="faq-search" class="form-control form-control-lg" placeholder="Search For Questions" />
+            <div className="container mt-5">
+                <form className="text-center" action="/faq" method="POST">
+                    <input type="text" autoComplete="off" name="faq-search" className="form-control form-control-lg" placeholder="Search For Questions" />
                 </form>
             </div>
 
