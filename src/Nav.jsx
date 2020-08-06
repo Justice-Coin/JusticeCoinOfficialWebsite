@@ -33,7 +33,7 @@ function Nav(props) {
           </a>
 
         </div>
-        <button className="navbar-toggler sticky" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler sticky" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <strong className="mdi mdi-menu" id="menu-button" style={{ fontSize: "20px" }}>Menu</strong>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
