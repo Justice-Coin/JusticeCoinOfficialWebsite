@@ -66,7 +66,7 @@ const particlesConfig = {
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "grab"
         },
         "onclick": {
           "enable": true,
@@ -76,7 +76,7 @@ const particlesConfig = {
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 250,
           "line_linked": {
             "opacity": 1
           }
@@ -92,10 +92,10 @@ const particlesConfig = {
           "distance": 150
         },
         "push": {
-          "particles_nb": 2
+          "particles_nb": 1
         },
         "remove": {
-          "particles_nb": 2
+          "particles_nb": 1
         }
       }
     },

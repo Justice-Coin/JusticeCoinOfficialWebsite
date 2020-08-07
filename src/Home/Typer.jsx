@@ -4,12 +4,6 @@ import React from "react";
 import Typical from "react-typical";
 
 function Typer() {
-    const typistDelayTime = 2 * 1000;
-    const stringsToType = [" is safe to use.", " is easy to setup.", " is decentralizing activism."];
-    const stepsArray = []
-    // for (let i = 0; i>stringsToType.length; i++) {
-        
-    // }
     return (<>
         <section className="container-fluid mt-5">
             <div className="col-lg-12 text-dark" style={{ fontSize: "30px", height: "10vh"}}>
