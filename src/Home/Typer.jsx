@@ -12,15 +12,15 @@ function Typer() {
     // }
     return (<>
         <section className="container">
-            <div className="col-lg-12 text-dark my-5" style={{ height: "80px", paddingBottom: "10px"}}>
-                <h3 className="text-center text-dark font-weight-bold makesmall" style={{ color: "#000080" }}>
+            <div className="col-lg-12 text-dark my-5" style={{ height: "100px", paddingBottom: "10px"}}>
+                <h2 className="text-center text-dark font-weight-bold makesmall" style={{ color: "#000080" }}>
                 <span style={{color: "#0000A0"}}>JusticeCoin</span>
                     <Typical
                         steps={[' is safe to use.', 2000, ' is easy to setup.', 2000, ' is decentralizing activism.', 2000]}
                         loop={Infinity}
                         wrapper="span"
                     />
-                </h3>
+                </h2>
             </div>
         </section>
     </>)

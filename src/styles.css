@@ -968,6 +968,7 @@ button:focus {
 .card {
   font-weight: bold;
   max-width: 300px;
+  min-width: 200px;
   min-height: 300px;
   padding: 30px 10px;
   border-radius: 12px;
@@ -1076,6 +1077,14 @@ button:focus {
     font-size: 16px;
   }
   .card-text {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .card {
+    min-height: 200px;
+    max-width: 221px;
+    min-width: 220px;
+  }
+  .makesmall {
+    font-size: 25px;
   }
 }
