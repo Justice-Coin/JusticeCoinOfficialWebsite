@@ -1068,21 +1068,21 @@ button:focus {
 
 @media (max-width:767px) {
   .header_title {
-    font-size: 60px;
+    font-size: 40px;
   }
   .header_subtitle {
-    font-size: 30px;
+    font-size: 20px;
   }
   .home-button-text {
-    font-size: 16px;
+    font-size: 14px;
   }
   .card-text {
     font-size: 15px;
   }
   .card {
     min-height: 200px;
-    max-width: 221px;
-    min-width: 220px;
+    max-width: 151px;
+    min-width: 150px;
   }
   .makesmall {
     font-size: 25px;

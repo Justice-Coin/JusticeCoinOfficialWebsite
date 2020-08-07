@@ -11,8 +11,8 @@ function Typer() {
         
     // }
     return (<>
-        <section className="container">
-            <div className="col-lg-12 text-dark my-5" style={{ height: "100px", paddingBottom: "10px"}}>
+        <section className="container px-5">
+            <div className="col-lg-12 text-dark my-5" style={{ height: "15vh"}}>
                 <h2 className="text-center text-dark font-weight-bold makesmall" style={{ color: "#000080" }}>
                 <span style={{color: "#0000A0"}}>JusticeCoin</span>
                     <Typical
