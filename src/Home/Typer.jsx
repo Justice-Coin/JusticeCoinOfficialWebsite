@@ -12,7 +12,7 @@ function Typer() {
     // }
     return (<>
         <section className="container-fluid mt-5">
-            <div className="col-lg-12 text-dark" style={{ fontSize: "30px", height: "15vh"}}>
+            <div className="col-lg-12 text-dark" style={{ fontSize: "30px", height: "10vh"}}>
                 <h2 className="text-center text-dark font-weight-bold" style={{ color: "#000080" }}>
                 <span style={{color: "#0000A0"}}>JusticeCoin</span>
                     <Typical
