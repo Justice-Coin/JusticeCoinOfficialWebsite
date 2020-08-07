@@ -987,10 +987,6 @@ button:focus {
   display: block;
 }
 
-.card-body {
-  margin: 0px;
-}
-
 .card-text {
   font-size: 23px;
   font-family: Montserrat;
@@ -1059,6 +1055,9 @@ button:focus {
   font-size: 21px;
 }
 
+.home-button-text {
+  font-size: 20px;
+}
 /* ABOUT PAGE SOCIAL ICONS: */
 .bg-icon {
   background-color: #000080;
@@ -1075,5 +1074,8 @@ button:focus {
   }
   .home-button-text {
     font-size: 16px;
+  }
+  .card-text {
+    font-size: 20px;
   }
 }
