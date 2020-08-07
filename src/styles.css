@@ -1065,7 +1065,7 @@ button:focus {
 
 /* Responsive big header on home page */
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .header_title {
     font-size: 60px;
   }
@@ -1078,4 +1078,4 @@ button:focus {
   .makesmall {
     font-size: 25px;
   }
-}
+} */

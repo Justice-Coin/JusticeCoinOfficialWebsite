@@ -12,8 +12,8 @@ function Typer() {
     // }
     return (<>
         <section className="container-fluid px-5">
-            <div className="col-lg-12 text-dark my-5" style={{ height: "15vh"}}>
-                <h2 className="text-center text-dark font-weight-bold makesmall" style={{ color: "#000080" }}>
+            <div className="col-lg-12 text-dark my-3" style={{ fontSize: "30px", height: "15vh"}}>
+                <h2 className="text-center text-dark font-weight-bold" style={{ color: "#000080" }}>
                 <span style={{color: "#0000A0"}}>JusticeCoin</span>
                     <Typical
                         steps={[' is safe to use.', 2000, ' is easy to setup.', 2000, ' is decentralizing activism.', 2000]}
