@@ -968,7 +968,6 @@ button:focus {
 .card {
   font-weight: bold;
   max-width: 300px;
-  min-width: 200px;
   min-height: 300px;
   padding: 30px 10px;
   border-radius: 12px;
@@ -1068,21 +1067,13 @@ button:focus {
 
 @media (max-width:767px) {
   .header_title {
-    font-size: 40px;
+    font-size: 60px;
   }
   .header_subtitle {
-    font-size: 20px;
+    font-size: 30px;
   }
   .home-button-text {
-    font-size: 14px;
-  }
-  .card-text {
-    font-size: 15px;
-  }
-  .card {
-    min-height: 200px;
-    max-width: 151px;
-    min-width: 150px;
+    font-size: 16px;
   }
   .makesmall {
     font-size: 25px;
