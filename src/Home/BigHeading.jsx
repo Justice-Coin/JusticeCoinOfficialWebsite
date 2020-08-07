@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import particlesConfig from "./particlesConfig";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BigHeading() {
   // Make particles Config a seperate file
@@ -9,8 +9,7 @@ function BigHeading() {
   return (
     <section className="h-100vh" id="topOfHome">
       <div className="bg-overlay-gradient" style={{ zIndex: "-1", width: "100%", height: "100%" }}></div>
-      <Particles params={config} style={{position: "absolute", marginTop: "0px", zIndex: 99}}
-/>
+      <Particles params={config} style={{ position: "absolute", marginTop: "0px", zIndex: 99 }} />
       <div className="home-table">
         <div className="home-table-center">
           <div className="container position-relative">
@@ -22,21 +21,22 @@ function BigHeading() {
             <h2 className="text-header_title" style={{ color: "#F0C000" }}>
               Mining Crypto for Change &amp; Promoting Social Justice
           </h2>
-            <br />
-           <Link to={"/webMiner"}>
-              <button style={{ zIndex: "100", position: "relative" }} className="mx-1 btn btn-large btn-outline-light">
-                <strong style={{ fontSize: "20px" }}>Start Mining Online</strong>
-              </button>
-            </Link>
-           <Link to={"/download"}>
-              <button style={{ zIndex: "100", position: "relative" }} className="mx-1 btn btn-large btn-outline-warning">
-                <strong style={{ fontSize: "20px" }}>Download Our Secure Desktop Miner</strong>
-              </button>
-            </Link>
+            <div className="mt-5">
+              <Link to={"/webMiner"}>
+                <button style={{ zIndex: "100", position: "relative" }} className="m-2 btn btn-large btn-outline-light">
+                  <strong style={{ fontSize: "20px" }}>Start Mining Online</strong>
+                </button>
+              </Link>
+              <Link to={"/download"}>
+                <button style={{ zIndex: "100", position: "relative" }} className="m-2 btn btn-large btn-outline-warning">
+                  <strong style={{ fontSize: "20px" }}>Download Our Secure Desktop Miner</strong>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
-  
+
     </section>
   )
 }

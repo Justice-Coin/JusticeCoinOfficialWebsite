@@ -432,6 +432,13 @@ button:focus {
   width: 250px;
 }
 
+@media (max-width:767px) {
+  .logo {
+    display: none;
+  }
+  
+}
+
 
 
 /*==========================

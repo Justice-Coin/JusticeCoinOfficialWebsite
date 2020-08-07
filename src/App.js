@@ -14,7 +14,7 @@ function App() {
   // This is for JS stuff
   require('bootstrap');
   return (<>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Switch>
         <Route path="/" exact component={withRouter(HomePage)} />
