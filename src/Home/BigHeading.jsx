@@ -15,21 +15,21 @@ function BigHeading() {
           <div className="container position-relative">
             <div className="row justify-content-center">
               <div className="col-lg-12 text-white text-header_title">
-                <h1 className="appear header_title" style={{ color: "#FFF" }}>JusticeCoin</h1>
+                <h1 className="appear header_title">JusticeCoin</h1>
               </div>
             </div>
-            <h2 className="text-header_title" style={{ color: "#F0C000" }}>
+            <h2 className="header_subtitle" style={{ color: "#F0C000" }}>
               Mining Crypto for Change &amp; Promoting Social Justice
           </h2>
             <div className="mt-5">
               <Link to={"/webMiner"}>
                 <button style={{ zIndex: "100", position: "relative" }} className="m-2 btn btn-large btn-outline-light">
-                  <strong style={{ fontSize: "20px" }}>Start Mining Online</strong>
+                  <strong className="home-button-text">Start Mining Online</strong>
                 </button>
               </Link>
               <Link to={"/download"}>
                 <button style={{ zIndex: "100", position: "relative" }} className="m-2 btn btn-large btn-outline-warning">
-                  <strong style={{ fontSize: "20px" }}>Download Our Secure Desktop Miner</strong>
+                  <strong className="home-button-text">Download Our Secure Desktop Miner</strong>
                 </button>
               </Link>
             </div>

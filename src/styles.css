@@ -36,7 +36,6 @@
 ========================*/
 body {
   font-family: 'Nunito', sans-serif;
-  overflow-x: hidden;
 }
 
 h1,
@@ -462,12 +461,6 @@ button:focus {
   text-transform: capitalize;
 }
 
-.header_subtitle {
-  line-height: 2.0;
-  font-size: 18px;
-  max-width: 600px;
-}
-
 .social_home li a {
   font-size: 18px;
   color: #ffffff;
@@ -557,16 +550,6 @@ button:focus {
   background-position: center center;
   background-size: cover;
 }
-
-
-/*==========================
-        12.GREATE PEOPLE
-============================*/
-.logo_img img {
-  max-height: 100px;
-  width: auto !important;
-}
-
 
 /*==========================
         16.FOOTER
@@ -959,6 +942,8 @@ button:focus {
 /*==========================
         19.Shrey's Custom
 ============================*/
+
+/* Stuff that fades in */
 .appear {
   -webkit-animation: fadein 2s;
   animation: fadin 2s;
@@ -974,6 +959,7 @@ button:focus {
   }
 }
 
+/* Cards on home page */
 .card-holder {
   margin-top: 10vh;
   margin-bottom: 10vh
@@ -994,6 +980,7 @@ button:focus {
   display: block;
 }
 
+/* For team page too */
 .card-link-team {
   color: #000;
   margin: 0px;
@@ -1023,11 +1010,12 @@ button:focus {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* general section */
 .section {
   padding-top: 20vh;
   padding-bottom: 10vh;
 }
-
+/* home page info sections */
 .section_beginner {
   background-color: #F9F9FF;
 }
@@ -1074,4 +1062,18 @@ button:focus {
 /* ABOUT PAGE SOCIAL ICONS: */
 .bg-icon {
   background-color: #000080;
+}
+
+/* Responsive big header on home page */
+
+@media (max-width:767px) {
+  .header_title {
+    font-size: 60px;
+  }
+  .header_subtitle {
+    font-size: 30px;
+  }
+  .home-button-text {
+    font-size: 16px;
+  }
 }

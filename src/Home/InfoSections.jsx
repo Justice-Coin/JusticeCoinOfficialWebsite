@@ -55,7 +55,7 @@ function InfoSections() {
 
 
                     <div className="col-lg-6 col-sm-12 text-center mb-5">
-                        <img src={require("../images/home-team.svg")} alt="" style={{ maxWidth: "400px" }} />
+                        <img src={require("../images/home-team.svg")} alt="" style={{ maxWidth: "400px"}} />
                     </div>
                 </div>
 
