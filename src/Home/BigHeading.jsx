@@ -20,10 +20,7 @@ function BigHeading() {
               </div>
             </div>
             <h2 className="text-header_title" style={{ color: "#F0C000" }}>
-              Crypto for change:
-          </h2>
-            <h2 className="text" style={{ color: "#fff" }}>
-              Mining cryptocurrency to support organizations for social justice
+              Mining Crypto for Change &amp; Promoting Social Justice
           </h2>
             <br />
            <Link to={"/webMiner"}>

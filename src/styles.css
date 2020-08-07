@@ -332,47 +332,46 @@ button:focus {
         3.NAVBAR
 ============================*/
 .custom-nav {
-  padding: 15px 0px;
+  padding: 20px 30px;
   width: 100%;
   border-radius: 0px;
   z-index: 999;
-  margin-bottom: 0px;
   transition: all 0.5s ease-in-out;
   background-color: transparent;
 }
 
 .custom-nav.stickyadd {
-  background-color: #fff;
-  padding: 5px 0;
+  background-color: #ffffff;
+  padding: 7px 30px;
   box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
 
-.custom-nav .navbar-nav li a {
+.custom-nav .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-size: 16px;
   background-color: transparent !important;
-  padding: 15px 0;
+  padding: 15px 10px;
   position: relative;
   margin: 0 7px;
   font-weight: 600;
   transition: all 0.4s;
 }
 
-.custom-nav .navbar-nav li a:hover {
+.custom-nav .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
 }
 
-.custom-nav .navbar-nav li.active a:before,
-.custom-nav .navbar-nav li:hover a:before,
-.custom-nav .navbar-nav li:active a:before,
-.custom-nav.stickyadd .navbar-nav li.active a:before,
-.custom-nav.stickyadd .navbar-nav li:hover a:before,
-.custom-nav.stickyadd .navbar-nav li:active a:before {
+.custom-nav .navbar-nav .nav-item.active a:before,
+.custom-nav .navbar-nav .nav-item:hover a:before,
+.custom-nav .navbar-nav .nav-item:active a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item.active a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item:hover a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item:active a:before {
   opacity: 1;
 }
 
-.custom-nav .navbar-nav li a:before,
-.custom-nav.stickyadd .navbar-nav li a:before {
+.custom-nav .navbar-nav .nav-item a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item a:before {
   content: '';
   position: absolute;
   left: 50%;
@@ -388,18 +387,17 @@ button:focus {
   transition: all 0.3s ease 0s;
 }
 
-.custom-nav.stickyadd .navbar-nav li a:before {
+.custom-nav.stickyadd .navbar-nav .nav-item a:before {
   background: #000 !important;
 }
 
 .navbar-toggler {
-  font-size: 24px;
   margin-top: 5px;
   margin-bottom: 0px;
-  color: #ffffff;
+  color: #777777;
 }
 
-.custom-nav.stickyadd .navbar-nav li a {
+.custom-nav.stickyadd .navbar-nav .nav-item .nav-link {
   color: #000;
 }
 
@@ -430,8 +428,8 @@ button:focus {
   display: none;
 }
 
-.custom-nav .navbar-brand.logo img {
-  height: 28px;
+.custom-nav .container .navbar-brand .logo img {
+  width: 250px;
 }
 
 

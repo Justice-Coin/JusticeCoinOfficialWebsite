@@ -9,7 +9,7 @@ function ChooseCardSection() {
     { bgColor: "#C09000", route: "route4", text: "I want to try it out!" }];
 
     return (<>
-        <section className="container-fluid">
+        <section className="container" style={{maxWidth: "1300px"}}>
             <div className="row text-center">
                 {cardData.map(data => {
                     return <Card key={data.text} bgColor={data.bgColor} route={data.route} text={data.text} />
