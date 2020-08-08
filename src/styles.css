@@ -347,7 +347,6 @@ button:focus {
 
 .custom-nav .navbar-nav .nav-item .nav-link {
   color: #fff;
-  font-size: 16px;
   background-color: transparent !important;
   padding: 15px 10px;
   position: relative;
@@ -435,9 +434,12 @@ button:focus {
   .logo {
     display: none;
   }
-  
 }
 
+
+.fullPageNavDropDown {
+  font-size: 30px;
+}
 
 
 /*==========================
@@ -1079,6 +1081,6 @@ button:focus {
     font-size: 25px;
   }
   .card {
-    min-height: 200px;
+    min-height: 220px;
   }
 }

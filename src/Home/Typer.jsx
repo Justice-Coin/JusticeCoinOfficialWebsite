@@ -10,7 +10,7 @@ function Typer() {
                 <h2 className="text-center text-dark font-weight-bold" style={{ color: "#000080" }}>
                 <span style={{color: "#0000A0"}}>JusticeCoin</span>
                     <Typical
-                        steps={[' is safe to use.', 2000, ' is easy to setup.', 2000, ' is decentralizing activism.', 2000]}
+                        steps={[' is safe to use.', 2000, ' is easy to setup.', 2000, ' is decentralizing  activism.', 2000]}
                         loop={Infinity}
                         wrapper="span"
                     />

@@ -5,18 +5,41 @@ import { Link as ScrollLink } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 
 function MainNavBar(props) {
-  const [navCompressed, setNavCompressed] = useState(false)
+  let navCompressed = false;
+  let navOpen = false;
+  const threshold = 10;
+
   function handleScroll() {
-    let nav = document.getElementById("nav")
     let scrollY = window.pageYOffset;
-    if (scrollY > 10) {
+    var nav = document.getElementById("nav");
+    if (scrollY > threshold) {
+      navCompressed = true;
       nav.classList.add('stickyadd');
-      setNavCompressed(true)
-    } else {
+    } else if (!navOpen) {
+      navCompressed = false;
       nav.classList.remove('stickyadd');
-      setNavCompressed(false);
     }
   };
+
+  function handleNavToggleClick() {
+    let scrollY = window.pageYOffset;
+    var nav = document.getElementById("nav");
+    var navList = document.getElementById("nav-item-list");
+    navOpen = !navOpen;
+    if (navOpen) {
+      navList.classList.add("fullPageNavDropDown");
+    } else {
+      navList.classList.remove("fullPageNavDropDown");
+    }
+
+    if (!navCompressed && scrollY < threshold) {
+      navCompressed = true;
+      nav.classList.add('stickyadd');
+    } else if (navCompressed && scrollY < threshold) {
+      navCompressed = false;
+      nav.classList.remove('stickyadd');
+    }
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -25,11 +48,6 @@ function MainNavBar(props) {
     }
   }, []);
 
-  // FIXING DROPDOWN MENU BACKGROUND
-  // On clicking the nav toggler
-  // if navCompress false, add .stickyadd to the classnames if its not already there and set navCompress to true
-  // else remove stickyadd from list and set navCompress true
-
 
   return (
     <nav className="navbar navbar-expand-lg fixed-top custom-nav sticky" id="nav">
@@ -37,15 +55,15 @@ function MainNavBar(props) {
         {/* <!-- LOGO --> */}
         <div className="navbar-brand">
           <a className="logo anchor" href="/">
-            <img src={require("./images/JusticeCoinLogo.png")} alt="JusticeCoinLogo" className="img-fluid logo-light" style={{ position: "fixed", top: "10px"}} />
+            <img src={require("./images/JusticeCoinLogo.png")} alt="JusticeCoinLogo" className="img-fluid logo-light" style={{ position: "fixed", top: "10px" }} />
           </a>
 
         </div>
-        <button className="navbar-toggler sticky border-0" type="button" data-toggle="collapse" data-target="#responsive-navbar-nav" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler sticky border-0" type="button" onClick={handleNavToggleClick} data-toggle="collapse" data-target="#responsive-navbar-nav" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="" id="nav-toggle-button" style={{ fontSize: "30px" }}><FaBars /></span>
         </button>
         <div className="collapse navbar-collapse" id="responsive-navbar-nav">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ml-auto" id="nav-item-list">
             {/* ALso add css class for cursor pointer */}
             <li className={props.activePage === 'home' ? 'nav-item active' : 'nav-item'}>
               {props.activePage === "home" ?
