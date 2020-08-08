@@ -25,7 +25,13 @@ function MainNavBar(props) {
     let scrollY = window.pageYOffset;
     var nav = document.getElementById("nav");
     var navList = document.getElementById("nav-item-list");
+    var activeNavItem = document.getElementsByClassName("active")[0];
+
+    if (activeNavItem) {
+      activeNavItem.classList.remove("active");
+    }
     navOpen = !navOpen;
+
     if (navOpen) {
       navList.classList.add("fullPageNavDropDown");
     } else {

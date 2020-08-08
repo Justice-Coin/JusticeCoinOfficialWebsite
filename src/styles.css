@@ -441,6 +441,10 @@ button:focus {
   font-size: 30px;
 }
 
+.removeListDots {
+  list-style: none;
+}
+
 
 /*==========================
         4.HOME
