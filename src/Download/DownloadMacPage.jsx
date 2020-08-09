@@ -9,10 +9,11 @@ function DownloadMacPage(props) {
     <PageTitle title="JusticeCoin For Mac" />
     <section className="container">
       <div className="container">
-        <div className="mt-5 row justify-content-center pt-0">
-          <h3 className="text-center" style={{ fontSize: "35px" }}>Mine using our desktop application!</h3>
-        </div>
         <div className="mt-5 row justify-content-center">
+          <h3 className="text-center" style={{ fontSize: "35px" }}>Mine using our desktop application!</h3>
+          <p className="text-danger text-center" style={{ fontSize: "20px", paddingTop: "2vh" }}>This version is currently under active development so you can't download it yet. Sorry :(</p>
+        </div>
+        <div className="mt-3 row justify-content-center">
           <a href={require("../DesktopBuilds/JusticeCoin.dmg")} download>
             <button id="download" type="download" className="btn btn-large btn-outline-dark mb-3" name="button">
               <strong style={{ fontSize: "25px" }}>Download For Mac <FaApple /></strong>
@@ -21,7 +22,6 @@ function DownloadMacPage(props) {
           <div className="col-12 text-center">
             <Link to="/download/windows">Not your OS? Download for Windows instead.</Link>
           </div>
-          <p className="text-danger text-center" style={{ fontSize: "20px", paddingTop: "2vh" }}>This version is currently under active development so you can't download it yet. Sorry :(</p>
 
           <div className="container-fluid text-center">
             <h5 className="mt-4 text-center"></h5>

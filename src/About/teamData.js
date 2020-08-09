@@ -92,8 +92,8 @@ const teamData = [{
   {
     name: "Navi Lanka",
     position: "Marketing Producer",
-    instagram: "",
-    linkedin: "",
+    instagram: "https://www.instagram.com/wingsnavi_/",
+    linkedin: "https://www.linkedin.com/in/jahnavi-lanka-a37633185/",
     email: "mailto:",
   },
   {

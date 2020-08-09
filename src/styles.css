@@ -434,6 +434,15 @@ button:focus {
   .logo {
     display: none;
   }
+  .custom-nav .navbar-nav .nav-item.active a:before,
+.custom-nav .navbar-nav .nav-item:hover a:before,
+.custom-nav .navbar-nav .nav-item:active a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item.active a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item:hover a:before,
+.custom-nav.stickyadd .navbar-nav .nav-item:active a:before {
+  opacity: 0;
+}
+
 }
 
 

@@ -9,6 +9,8 @@ import WebMiner from "./WebMiner/WebMinerPage";
 import DownloadPage from "./Download/DownloadPage";
 import PageNotFound from "./PageNotFound";
 import ScrollToTop from "./ScrollToTop";
+import BlogPage from './Blog/BlogPage';
+import BlogAdminPage from './Blog/BlogAdminPage';
 
 function App() {
   // This is for JS stuff
@@ -24,7 +26,9 @@ function App() {
         <Route path="/download" exact component={withRouter(DownloadPage)} />
         <Route path="/download/mac" exact render={withRouter((props) => (<DownloadPage {...props} OS="Mac OS" />))} />
         <Route path="/download/windows" exact render={withRouter((props) => (<DownloadPage {...props} OS="Windows" />))} />
-        <Route path="/" component={withRouter(PageNotFound)} />
+        <Route path="/blog" exact component={withRouter(BlogPage)} />
+        <Route path="/blog/auth/admin" exact component={withRouter(BlogAdminPage)} />
+        <Route component={withRouter(PageNotFound)} />
       </Switch>
     </Router>
   </>
