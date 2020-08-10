@@ -6,11 +6,11 @@ function AdminAuth(props) {
     function handleFormSubmit(event) {
         event.preventDefault();
         // Do something here to authenticate
-        // if (inputPassword === "weneedmoredata") {
+        if (inputPassword === "weneedmoredata") {
             props.setIsAuth(true);
-        // } else {
-            // setIncorrectMessage("Incorrect password.");
-        // }
+        } else {
+            setIncorrectMessage("Incorrect password.");
+        }
     }
     return (<>
         <div className="container">
