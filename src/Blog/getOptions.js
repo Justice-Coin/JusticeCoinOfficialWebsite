@@ -1,15 +1,18 @@
 export default () => {
     return {
-        "value": "Another day, Another blog. Get on that JusticeGrind!",
+        "value": "",
+        "placeholder": "Another day, Another blog post. Get on that JusticeGrind!",
         "mode": "balloon-always",
         "stickyToolbar": "",
         "katex": "window.katex",
         "charCounter": true,
         "charCounterType": "char",
-        "charCounterLabel": "",
+        "charCounterLabel": "Characters: ",
         "imageGalleryUrl": "",
         "videoFileInput": false,
         "tabDisable": false,
+        "minHeight": "80vh",
+        "height": "auto",
         "lineHeights": [
             {
                 "text": "Single",
@@ -72,5 +75,9 @@ export default () => {
             ]
         ],
         "lang(In nodejs)": "en",
+        callBackSave: function (contents) {
+            console.log(contents)
+            // send to savedPosts database
+        }
     };
 }
