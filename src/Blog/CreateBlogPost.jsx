@@ -90,10 +90,10 @@ function CreateBlogPost(props) {
                             });
                         }} />
                 </div>
-                <div>
+                <div className="text-center mb-5">
                     <button
-                        className="btn btn-outline-secondary"
-                        onClick={event => sendPostToFirebase(event)}>Post</button>
+                        className="btn btn-outline-secondary font-weight-bold"
+                        onClick={event => sendPostToFirebase(event)}>Post To Blog</button>
                 </div>
             </div>
     </>);

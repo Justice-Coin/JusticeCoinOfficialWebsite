@@ -4,9 +4,12 @@ import PageTitle from "../PageTitle";
 import firebaseDB from "./firebaseDB";
 import { useEffect } from "react";
 import BlogPostsContainer from "./BlogPostsContainer";
+import Footer from "../Footer/Footer";
+import { FaSpinner } from "react-icons/fa";
 
 function BlogPage() {
     const [blogData, setBlogData] = useState([]);
+
     useEffect(() => {
         let arrayOfDocuments = [];
         firebaseDB.collection("blogPosts").get()
@@ -24,14 +27,17 @@ function BlogPage() {
     return (<>
         <MainNavBar activePage="blog" />
         <PageTitle title="Blog" />
-        <div className="row">
-            <div className="col-md-2 col-xs-12">
-                Put Side Bar here
+        <div className="container">
+            <div className="row">
+                <div className="col-md-9 col-xs-12">
+                    <BlogPostsContainer data={blogData} />
+                </div>  
+                <div className="col-md-3 col-xs-12">
+                    Put Side Bar here
             </div>
-            <div className="col-md-10 col-xs-12">
-                <BlogPostsContainer data={blogData} />
             </div>
         </div>
+        <Footer />
     </>);
 }
 

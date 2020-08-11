@@ -743,6 +743,57 @@ button:focus {
 /*==========================
         17.BLOG PAGE
 ============================*/
+
+
+.blog-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  transition: .5s ease;
+  background-color: #000;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.blog-overlay:hover {
+  opacity: 0.2;
+}
+
+.blog-image {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto ;
+   transition: .5s ease;
+}
+
+.blog-thumbnail:hover .blog-image{
+  padding-right: 10px;
+}
+
+.postTitle {
+  color: #444444;
+  transition: .5s ease;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.postTitle:hover {
+  padding-left: 10px;
+  padding-right: 0px;
+  color: #000;
+}
+
+
 .pagination>li {
   display: inline-block;
   margin-right: 2px;

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 
 function AdminAuth(props) {
+    document.body.style.backgroundColor = "#eee"
     const [inputPassword, setInputPassword] = useState("");
     const [incorrectMessage, setIncorrectMessage] = useState("");
     function handleFormSubmit(event) {
@@ -13,6 +15,7 @@ function AdminAuth(props) {
         }
     }
     return (<>
+    {props.isAuth && <Redirect to="/admin-console/create-blog-post" />}
         <div className="container">
             <div className="jumbotron mt-5 text-center" style={{backgroundColor: "#ddd"}}>
                 <img src={require("../images/JusticeCoinLogoDark.png")} style={{ width: "50%"}} />
