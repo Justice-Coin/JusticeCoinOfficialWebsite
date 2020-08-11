@@ -19,12 +19,12 @@ function AdminConsole(props) {
                 </div>
                 <div className="row">
                     <div className="col-12 mt-3">
-                        <h5 className="text-center"><Link to="/admin-console/manage-blog">Create Blog Post</Link></h5>
+                        <h5 className="text-center"><Link to="/admin-console/create-blog-post">Create Blog Post</Link></h5>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 mt-3">
-                        <h5 className="text-center"><Link to="/admin-console/manage-blog">View Stats</Link></h5>
+                        <h5 className="text-center"><Link to="/admin-console/view-stats">View Stats</Link></h5>
                     </div>
                 </div>
             </div>

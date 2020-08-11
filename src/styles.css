@@ -34,6 +34,7 @@
 /*======================
         1.BASIC
 ========================*/
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -74,72 +75,35 @@ button:focus {
   background: rgba(166, 175, 189, 0.3);
 }
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 9999999;
+.loader-bg {
+  background-color: #ffffff;
 }
 
-#status {
-  width: 40px;
-  height: 40px;
+.loader {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -20px 0 0 -20px;
-}
-
-.spinner {
-  margin: 0 auto;
-  font-size: 10px;
-  position: relative;
-  text-indent: -9999em;
-  border-top: 5px solid rgba(0, 0, 0, 0.2);
-  border-right: 5px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
-  border-left: 5px solid #000;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation: load8 1.1s infinite linear;
-  animation: load8 1.1s infinite linear;
-}
-
-.spinner,
-.spinner:after {
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #000000;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  animation: load8 1.1s infinite linear;
+  transition: opacity 0.3s;
 }
 
-@-webkit-keyframes load8 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.loader--hide {
+  opacity: 0;
 }
 
 @keyframes load8 {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
-
 .back_top {
   text-align: center;
   position: fixed;
@@ -784,7 +748,7 @@ button:focus {
   color: #444444;
   transition: .5s ease;
   padding-left: 0px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .postTitle:hover {
@@ -1061,7 +1025,7 @@ button:focus {
 .card.team {
   color: #000;
   padding: 0px;
-  max-width: 350px;
+  max-width: 300px;
   min-height: 350px;
   margin: 10px;
   border-radius: 8px;

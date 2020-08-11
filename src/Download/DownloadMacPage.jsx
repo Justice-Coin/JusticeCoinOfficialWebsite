@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 function DownloadMacPage(props) {
 
   return (<>
-    <PageTitle title="JusticeCoin For Mac" />
+    <PageTitle />
     <section className="container">
       <div className="container">
         <div className="mt-5 row justify-content-center">
-          <h3 className="text-center" style={{ fontSize: "35px" }}>Mine using our desktop application!</h3>
+          <h3 className="text-center" style={{ fontSize: "35px" }}>Get JusticeCoin For Mac</h3>
           <p className="text-danger text-center" style={{ fontSize: "20px", paddingTop: "2vh" }}>This version is currently under active development so you can't download it yet. Sorry :(</p>
         </div>
         <div className="mt-3 row justify-content-center">

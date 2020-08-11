@@ -15,8 +15,8 @@ function PageNotFound() {
             <img src={require("./images/404.gif")} alt="404 Not Found" style={{width: "100%"}}/>
                 <div className="mt-3">
                     <h2>The requested pathname "{window.location.pathname}" was not found on this server.</h2>
-                    <h5>Maybe you wanted to go to our <a href="/">home page</a>?</h5>
-                    <h5>Or perhaps you wanted to try out our <a href="/webMiner">web miner</a>?</h5>
+                    {/* <h5>Maybe you wanted to go to our <a href="/">home page</a>?</h5>
+                    <h5>Or perhaps you wanted to try out our <a href="/webMiner">web miner</a>?</h5> */}
                 </div>
 
             </section>
