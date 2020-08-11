@@ -1,5 +1,5 @@
 import React from "react";
-import PageTitle from "../PageTitle";
+import PageTitle from "../PageTopBlue";
 import { FaWindows } from "react-icons/fa";
 import {Link} from "react-router-dom"
 function DownloadWindowsPage(props) {

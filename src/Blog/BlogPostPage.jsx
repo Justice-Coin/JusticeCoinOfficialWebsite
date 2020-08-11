@@ -3,11 +3,12 @@ import firebaseDB from "./firebaseDB";
 import { useEffect } from "react";
 import { useState } from "react";
 import MainNavBar from "../Nav";
-import PageTitle from "../PageTitle";
+import PageTitle from "../PageTopBlue";
 import Footer from "../Footer/Footer";
 import moment from "moment";
 
 function BlogPostPage(props) {
+    document.body.style.backgroundColor = "#eee";
     const [postData, setPostData] = useState({ author: "", title: "", description: "", content: "" });
     const [error, setError] = useState("");
     let postID = props.match.params.postID;
@@ -55,7 +56,7 @@ function BlogPostPage(props) {
 
         {error === "post-not-found" ? <p className="text-center my-5">This blog post doesn't exist.</p>
             : error === "cant-get-post" ? <p className="text-center my-5">There was an error in retrieving this post. Please try again later</p>
-                : <div className="container my-5">
+                : <div className="container my-5 py-5" style={{minHeight:"40vh", backgroundColor: "#FFF"}}>
                 <h1 className="text-center">{postData.title}</h1>
                 <p className="text-secondary text-center">{postData.author} | {moment(new Date(postData.datePublished)).format("MMM Do, YYYY")} | {postData.category}</p>
                 <h6 className="text-center">{postData.description}</h6>

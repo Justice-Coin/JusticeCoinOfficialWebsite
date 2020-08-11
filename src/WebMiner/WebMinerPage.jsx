@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import PageTitle from "../PageTitle";
+import PageTitle from "../PageTopBlue";
 import Nav from "../Nav";
 import { Link } from "react-router-dom";
 import WebMinerFooter from "./WebMinerFooter";

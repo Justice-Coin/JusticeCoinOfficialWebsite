@@ -75,14 +75,8 @@ button:focus {
   background: rgba(166, 175, 189, 0.3);
 }
 
-.loader-bg {
-  background-color: #ffffff;
-}
-
-.loader {
-  position: absolute;
-  top: calc(50% - 4em);
-  left: calc(50% - 4em);
+#loader {
+  position: relative;
   width: 6em;
   height: 6em;
   border: 1.1em solid rgba(0, 0, 0, 0.2);
@@ -90,10 +84,6 @@ button:focus {
   border-radius: 50%;
   animation: load8 1.1s infinite linear;
   transition: opacity 0.3s;
-}
-
-.loader--hide {
-  opacity: 0;
 }
 
 @keyframes load8 {
@@ -737,11 +727,6 @@ button:focus {
    right: 0;
    margin-left: auto;
    margin-right: auto ;
-   transition: .5s ease;
-}
-
-.blog-thumbnail:hover .blog-image{
-  padding-right: 10px;
 }
 
 .postTitle {

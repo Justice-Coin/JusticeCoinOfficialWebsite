@@ -7,7 +7,7 @@ import firebaseDB from "./firebaseDB";
 
 function CreateBlogPost(props) {
     const [sunEditorOptions, setSunEditorOptions] = useState(getOptions());
-    const [blogPost, setBlogPost] = useState({ author: "", title: "", description: "", content: "" });
+    const [blogPost, setBlogPost] = useState({ author: "", title: "", description: "", content: "", thumbnailURL: ""});
 
     function sendPostToFirebase(event) {
         firebaseDB.collection("blogPosts").add({
@@ -15,6 +15,7 @@ function CreateBlogPost(props) {
             title: blogPost.title,
             description: blogPost.description,
             content: blogPost.content,
+            thumbnailURL: blogPost.thumbnailURL,
             datePublished: Date.now(),
             dateLastEdited: Date.now()
         })
@@ -63,6 +64,17 @@ function CreateBlogPost(props) {
                                         }} />
                                 </div>
                             </div>
+                            <input type="text"
+                                        className="form-control"
+                                        id="thumbnailInpug"
+                                        placeholder="Thumbnail Image URL"
+                                        value={blogPost.thumbnailURL}
+                                        onChange={event => {
+                                            let newInput = event.target.value;
+                                            setBlogPost(prev => {
+                                                return { ...prev, thumbnailURL: newInput };
+                                            })
+                                        }} />
                             <div className="row my-3">
                                 <div className="col-12">
                                     <textarea type="text"
