@@ -1,8 +1,5 @@
 import React from "react";
-// import Nav from "./Nav";
-import SetTitle from "./SetTitle";
-// import PageTitle from "./PageTitle";
-// import Footer from "./Footer/Footer";
+import SetTitle from "./SetTitle.jsx";
 
 function PageNotFound() {
     return (
