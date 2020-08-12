@@ -4,7 +4,7 @@ import faqData from "./faqData";
 import Nav from "../Nav";
 import { Accordion, Card } from "react-bootstrap";
 import Footer from "../Footer/Footer";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 
 function FAQPage() {
     // MAKE SEARCH BOX WORK (CHECK IF MATCH IN Q/A)
