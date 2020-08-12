@@ -1,11 +1,10 @@
 import React from "react";
 // import Nav from "./Nav";
-import SetTitle from "./setTitle";
+import SetTitle from "./SetTitle";
 // import PageTitle from "./PageTitle";
 // import Footer from "./Footer/Footer";
 
 function PageNotFound() {
-    console.log("Page not founf");
     return (
         <>
             <SetTitle title="Error 404: Page Not Found" />

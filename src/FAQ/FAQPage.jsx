@@ -1,8 +1,8 @@
 import React from "react";
 import PageTitle from "../PageTopBlue";
 import faqData from "./faqData";
-import Nav from "../Nav.jsx";
-import SetTitle from "../setTitle.jsx";
+import Nav from "../Nav";
+import SetTitle from "../SetTitle";
 import { Accordion, Card } from "react-bootstrap";
 import Footer from "../Footer/Footer";
 

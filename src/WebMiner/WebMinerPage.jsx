@@ -4,6 +4,7 @@ import Nav from "../Nav";
 import { Link } from "react-router-dom";
 import WebMinerFooter from "./WebMinerFooter";
 import GetScript from "../getScript";
+import SetTitle from "../SetTitle";
 
 function WebMinerPage() {
     document.body.style.backgroundColor = "#EEEEEE";    
@@ -21,6 +22,7 @@ function WebMinerPage() {
 
     // Add slider bar to control mining speed + look into cloud-miner js code and try a few keynames for stopping mining.
     return (<>
+    <SetTitle title="WebMiner"/>
         <Nav activePage="webMiner" />
         <PageTitle title="Web Miner" />
         <section className="container">

@@ -1,5 +1,5 @@
 import React from "react";
-import SetTitle from "../setTitle.jsx";
+import SetTitle from "../SetTitle.jsx";
 import Nav from "../Nav.jsx";
 import BigHeading from "./BigHeading";
 import Typer from "./Typer";

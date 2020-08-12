@@ -4,6 +4,7 @@ import DownloadMacPage from "./DownloadMacPage";
 import OSNotSupported from "./OSNotSupported";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav";
+import SetTitle from "../SetTitle";
 
 function DownloadPage(props) {
 
@@ -35,6 +36,7 @@ function DownloadPage(props) {
     const systemOS = props.OS || getOS();
 
     return (<>
+    <SetTitle title="Download" />
     <Nav activePage="download"/>
         {systemOS === "Windows" ? <DownloadWindowsPage /> :
         systemOS === "Mac OS" ? <DownloadMacPage /> : 

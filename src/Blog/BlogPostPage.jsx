@@ -6,6 +6,7 @@ import MainNavBar from "../Nav";
 import PageTitle from "../PageTopBlue";
 import Footer from "../Footer/Footer";
 import moment from "moment";
+import SetTitle from "../SetTitle";
 
 function BlogPostPage(props) {
     document.body.style.backgroundColor = "#eee";
@@ -51,6 +52,7 @@ function BlogPostPage(props) {
     }
 
     return (<>
+    <SetTitle title="Blog" />
         <MainNavBar activePage="blog" />
         <PageTitle />
 

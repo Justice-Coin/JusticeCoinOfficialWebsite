@@ -5,6 +5,7 @@ import firebaseDB from "./firebaseDB";
 import { useEffect } from "react";
 import BlogPostsContainer from "./BlogPostsContainer";
 import Footer from "../Footer/Footer";
+import SetTitle from "../SetTitle";
 
 function BlogPage() {
     const [blogData, setBlogData] = useState([]);
@@ -32,6 +33,7 @@ function BlogPage() {
     }, [blogData]);
 
     return (<>
+    <SetTitle title="Blog" />
         <MainNavBar activePage="blog" />
         <PageTitle title="Blog" />
         <div className="container"> 
