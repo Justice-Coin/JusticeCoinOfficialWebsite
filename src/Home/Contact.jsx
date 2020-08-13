@@ -1,5 +1,6 @@
 import React from "react";
 import MailChimpForm from "./MailChimpForm";
+require("dotenv").config();
 function Contact() {
   return (<>
 
