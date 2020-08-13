@@ -6,7 +6,7 @@ import MainNavBar from "../Nav";
 import PageTitle from "../PageTopBlue";
 import Footer from "../Footer/Footer";
 import moment from "moment";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 
 function BlogPostPage(props) {
     document.body.style.backgroundColor = "#eee";
