@@ -4,7 +4,7 @@ import Nav from "../Nav";
 import { Link } from "react-router-dom";
 import WebMinerFooter from "./WebMinerFooter";
 import GetScript from "../getScript";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 
 function WebMinerPage() {
     document.body.style.backgroundColor = "#EEEEEE";    

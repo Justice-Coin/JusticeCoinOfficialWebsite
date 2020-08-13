@@ -4,7 +4,7 @@ import DownloadMacPage from "./DownloadMacPage";
 import OSNotSupported from "./OSNotSupported";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 
 function DownloadPage(props) {
 

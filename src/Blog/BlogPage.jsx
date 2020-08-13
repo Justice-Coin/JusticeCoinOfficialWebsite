@@ -5,7 +5,7 @@ import firebaseDB from "./firebaseDB";
 import { useEffect } from "react";
 import BlogPostsContainer from "./BlogPostsContainer";
 import Footer from "../Footer/Footer";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 
 function BlogPage() {
     const [blogData, setBlogData] = useState([]);
