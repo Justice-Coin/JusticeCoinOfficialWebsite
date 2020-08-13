@@ -1,5 +1,5 @@
 import React from "react";
-import SetTitle from "../SetTitle";
+import SetTitle from "../SetTitle.jsx";
 import Nav from "../Nav";
 import PageTitle from "../PageTopBlue";
 import teamData from "./teamData";
