@@ -49,7 +49,7 @@ const teamData = [{
   },
   {
     name: "Brian Vo",
-    position: "SEO Specialist",
+    position: "SEO Lead",
     instagram: "https://www.instagram.com/brianhvo/",
     linkedin: "https://www.linkedin.com/in/brian-vo-827564189/",
     email: "mailto:brianhvo0@gmail.com",
