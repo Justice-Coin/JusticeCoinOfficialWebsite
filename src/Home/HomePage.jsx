@@ -8,10 +8,18 @@ import InfoSections from "./InfoSections";
 import Contact from "./Contact";
 import Footer from "../Footer/Footer.jsx";
 
+<html lang="en">
+  <head>
+    <meta property="og:title" content="__OG_TITLE__" />
+    <meta property="og:description" content="__OG_DESCRIPTION__" />
+  </head>
+</html>
+
 function HomePage() {
     document.body.style.backgroundColor = "#EEEEEE";
     return (
         <>
+        
             <SetTitle title="JusticeCoin | Decentralized Activism" />
             <Nav activePage="home" />
             <BigHeading />

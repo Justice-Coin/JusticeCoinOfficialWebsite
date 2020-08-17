@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <%- include("partials/header", {pageTitle: "Download | JusticeCoin"}) -%>
+</head>
+
+<body style="background-color: #eee">
+  <!-- START NAVBAR -->
+  <%- include("partials/navbar", {activePage: 'download'}) -%>
+  <!-- END NAVBAR -->
+  <!-- START PAGE TITLE -->
+  <section class="container-fluid" style="background-color: #000050; height: 40vh">
+    <div class="col-lg-12" style="padding-top:20vh">
+      <h1 class="text-center" style="color: #fff; font-size: 50px">JusticeCoin Mac</h1>
+    </div>
+  </section>
+  <!-- END PAGE TITLE -->
+  <!-- START MAIN -->
+  <section class="container">
+    <div class="container">
+      <div class="mt-5 row justify-content-center" style="padding-top: 0vh">
+        <h3 class = "text-center" style = "font-size: 35px">Mine using our desktop application!</h3>
+      </div>
+      <div class="mt-5 row justify-content-center">
+        <a href="/desktopBuilds/JusticeCoin.dmg" download>
+        <button id = "download" type="download" class="btn btn-large btn-outline-dark mb-3" name="button">
+          <strong style="font-size: 25px">Download For Mac <span class="fa fa-apple" ></span></strong>
+        </button>
+      </a>
+      <div class="container-fluid text-center">
+        <p class="text-danger text-center" style="font-size: 20px; padding-top:2vh">This version is currently under active development. Please report any bugs/crashes to contact@JusticeCoin.org.</p>
+        <p class="text-danger text-center" style="font-size: 20px; padding-top:2vh">Unless you have a supercomputer we <strong>highly</strong> recommend <u>running this on low</u> as of this release.</p>
+
+        <h5 class="mt-4 text-center"></h5>
+        <img class="w3-display-middle w3-large" src="/images/MacApplication.png" alt="macApp" style = "width:75%"/>
+      </div>
+        <p class="text-danger text-center" style="font-size: 20px; padding-top:10vh"><i>Note: most antivirus softwares consider all crypto-miners as dangerous, and unfortunately that could include our software. But this is no cause for worry! We promise that JusticeCoin is completely safe to download and we will never collect any of your personal information. For a full list of security features, please visit our <a href="/#faq">FAQ</a>.</i></p>
+      </div>
+    </div>
+  </section>
+  <!-- END MAIN -->
+  <!-- START FOOTER -->
+  <%- include("partials/footer") -%>
+  <!-- END FOOTER -->
+</body>
+<!-- BASE JAVASCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--CUSTOM JS-->
+<script src="/js/navbar.js"></script>
+<script src="/js/thanksForDownloading.js"></script>
+
+</html>
