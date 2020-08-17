@@ -14,6 +14,7 @@ class MailchimpSubscribe extends React.Component {
   subscribe = data => {
     const params = toQueryString(data);
     const url = getAjaxUrl(this.props.url) + "&" + params;
+    console.log("URL: " + url);
     this.setState(
       {
         status: "sending",
